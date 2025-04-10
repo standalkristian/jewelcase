@@ -1,0 +1,260 @@
+[
+  {
+    "artist":"Bon Iver",
+    "title":"22 A Million",
+    "type":"Album",
+    "release_year":2016,
+    "main_genre":"Indie",
+    "rating":10,
+    "tags":"Electronic, Experimental"
+  },
+
+  {
+    "artist":"Parcels",
+    "title":"Day-Night",
+    "type":"Album",
+    "release_year":2021,
+    "main_genre":"Indietronica",
+    "rating":10,
+    "tags":"Nu-disco, Funk, Psychodelic pop, Soul, Alternativ dance, indie pop"
+  },
+    
+  {
+    "artist":"Daft Punk",
+    "title":"Discovery",
+    "type":"Album",
+    "release_year":2001,
+    "main_genre":"House",
+    "rating":10,
+    "tags":"French house, Disco, Nu-disco, House, Electro-funk"
+  },
+
+  {
+  "artist":"Parcels",
+  "title":"Live Vol 1",
+  "type":"Live",
+  "release_year":2020,
+  "main_genre":"Indietronica",
+  "rating":10,
+  "tags":"Nu-disco, Funk, Psychodelic pop, Soul, Alternativ dance, indie pop"
+  },
+
+  {
+    "artist":"Fleetwood Mac",
+    "title":"Rumours",
+    "type":"Album",
+    "release_year":1977,
+    "main_genre":"Rock",
+    "rating":10,
+    "tags":"Something"
+  },
+
+  {
+    "artist":"Porter Robinson",
+    "title":"SMILE",
+    "type":"Album",
+    "release_year":2024,
+    "main_genre":"Electronic",
+    "rating":10,
+    "tags":"Indie, Alternative, Rock, Meloncholy, Inspiring, Relaxing, Sad, Nostalgic"
+  },
+
+  {
+    "artist":"Gianni Brezzo",
+    "title":"Soundscapes Vol 1 Music for Harlequins",
+    "type":"Album",
+    "release_year":2023,
+    "main_genre":"Jazz",
+    "rating":10,
+    "tags":"Hip hop, Electronic, Experimental"
+  },
+
+  {
+    "artist":"Toy Matinee",
+    "title":"Toy Matinee",
+    "type":"Album",
+    "release_year":1990,
+    "main_genre":"Progressive Rock",
+    "rating":10,
+    "tags":"Something"
+  },
+
+  {
+    "artist":"Burial",
+    "title":"Untrue",
+    "type":"Album",
+    "release_year":2007,
+    "main_genre":"Dubstep",
+    "rating":10,
+    "tags":"Something"
+  },
+
+  {
+    "artist":"Susanne Sundfør",
+    "title":"Music for People in Trouble",
+    "type":"Album",
+    "release_year":2017,
+    "rating":10,
+    "tags":"Sad, Meloncholy, Emotional, Personal, Raw, Bare, Intimate, Theatrical"
+  },
+
+  {
+    "artist":"Blossom Dearie",
+    "title":"Blossom Dearie (Expended Edition)",
+    "type":"Album",
+    "release_year":1957,
+    "main_genre":"Jazz",
+    "rating":9.8,
+    "tags":"Cool jazz, Relaxing, Romantic, Light, Smiling, Humorous"
+  },
+
+  {
+    "artist":"Khamari",
+    "title":"A Brief Nirvana",
+    "type":"Album",
+    "release_year":2023,
+    "main_genre":"R&B",
+    "rating":9.8,
+    "tags":"Soul, Hip hop"
+  },
+
+  {
+    "artist":"The Flashbulb",
+    "title":"Compositions for Piano",
+    "type":"Album",
+    "release_year":2015,
+    "main_genre":"Modern Classical",
+    "rating":9.8,
+    "tags":"Piano"
+  },
+
+  {
+    "artist":"Miles Davis",
+    "title":"In A Silent Way",
+    "type":"Album",
+    "release_year":1969,
+    "main_genre":"Jazz",
+    "rating":9.8,
+    "tags":"Experimental, Electronic"
+  },
+
+  {
+    "artist":"The Japanese House",
+    "title":"In the End It Always Does",
+    "type":"Album",
+    "release_year":2023,
+    "main_genre":"Indie",
+    "rating":9.8,
+    "tags":"Indie pop, Pop, Alternativ Pop, Dream pop, Electropop"
+  },
+
+  {
+    "artist":"Miles Davis",
+    "title":"Kind Of Blue (Legacy Edition)",
+    "type":"Album",
+    "release_year":1959,
+    "main_genre":"Jazz",
+    "rating":9.8,
+    "tags":"Something"
+  },
+
+  {
+    "artist":"Jordan Rakai",
+    "title":"The Loop",
+    "type":"Album",
+    "release_year":2024,
+    "main_genre":"R&B",
+    "rating":9.8,
+    "tags":"Relaxing, Inspiring"
+    },
+
+  {
+    "artist":"Parcels",
+    "title":"Parcels",
+    "type":"Album",
+    "release_year":2018,
+    "main_genre":"Indietronica",
+    "rating":9.7,
+    "tags":"Nu-disco, Funk, Psychodelic pop, Soul, Alternativ dance, indie pop"
+  },
+
+  {
+    "artist":"Carly Rae Jepsen",
+    "title":"EMOTION SIDE B",
+    "type":"Album",
+    "release_year":2016,
+    "main_genre":"Pop",
+    "rating":9.5,
+    "tags":"Bubblegum pop"
+  },
+
+  {
+    "artist":"Quickly, Quickly",
+    "title":"The Long and Short of It",
+    "type":"Album",
+    "release_year":2021,
+    "main_genre":"Jazz",
+    "rating":9.5,
+    "tags":"Electronic, Fusion, Inspiring, Calm, Complex, Personal"
+  },
+
+  {
+    "artist":"Bill Evans",
+    "title":"You Must Believe In Spring",
+    "type":"Album",
+    "release_year":1981,
+    "main_genre":"Jazz",
+    "rating":9.3,
+    "tags":"Cool jazz, Soft jazz, Classic Piano, Relaxing, Complex, Cool, Romantic"
+  },
+
+  {
+    "artist":"Benny Sings",
+    "title":"City Pop",
+    "type":"Album",
+    "release_year":2019,
+    "main_genre":"Indietronica",
+    "rating":9.2,
+    "tags":"Pop, Rock, Funk, R&B, Soul, Alternative, Jazz, Easy, Vibey, Funky, Sunny, Nice, Jazzy, Complex"
+  },
+
+  {
+    "artist":"Tommy Guerrero",
+    "title":"Perpetual",
+    "type":"Album",
+    "release_year":2015,
+    "main_genre":"Jazz",
+    "rating":9.2,
+    "tags":"Electronic, Indie, Alternative, Skate, Surfer, Vibes, Relaxed, Spiritual"
+    },
+
+  {
+    "artist":"River Tiber",
+    "title":"Dreaming Eyes",
+    "type":"Album",
+    "release_year":2022,
+    "main_genre":"Psychedelic Soul",
+    "rating":9.2,
+    "tags":"Cosmic jazz, Rock, Experminetal, Beats, Electronic, Toronto, Contemporary, Indie/Alternative, Peaceful, Laid-back"
+  },
+
+  {
+    "artist":"The Durutti Column",
+    "title":"The Return of The Durutti Column",
+    "type":"Album",
+    "release_year":1979,
+    "main_genre":"Ambient",
+    "rating":9.1,
+    "tags":"Dream pop, Post-punk, Inspiring, Complex, Walks, City/Nature"
+  },
+
+  {
+    "artist":"Uyama Hiroto",
+    "title":"Breath of Love",
+    "type":"Album",
+    "release_year":2024,
+    "main_genre":"Jazz",
+    "rating":9.1,
+    "tags":"Downtempo, Jazz-Hop, Hip hop, Smooth, Chill, Warm, Laid-back, Dreamy, Walks, Content, Peaceful"
+  }
+]

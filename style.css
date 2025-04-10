@@ -1,0 +1,146 @@
+:root {
+  --glow-color: hsla(35, 100%, 92%, 0.25);
+  --glow-color2: hsl(0, 100%, 50%);
+  --bg-color: #1b1b1b;
+  --border: 8px;
+  --info-size-1: 0.6rem;
+  --font-header: "Fascinate Inline", system-ui;
+  --font-title: "Knewave", system-ui;
+  --font-info: "Quicksand", sans-serif;
+  --royalPurple: #7E57C2;
+  --royalPurpleBrighter: #7f48df;
+}  
+
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: var(--bg-color);
+  color: #fff;
+}
+
+header {
+  padding: 1rem;
+  text-align: center;
+  background-color: #000000;
+  font-family: var(--font-header);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+}
+
+#album-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  padding: 8rem 30rem 3rem 8rem;
+}
+
+.album {
+  position: relative;
+  cursor: pointer;
+  aspect-ratio: 1 / 1;
+  transition: transform 0.3s ease, opacity 1s ease;
+}
+
+.album img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: var(--border);
+}
+
+.album-info {
+  position: absolute;
+  left: 80%;
+  top: 0;
+  padding: 0.5rem;
+  opacity: 0;
+  width: 300px;
+  transition: opacity 0.2s ease, transform 0.4s ease;
+  line-height: 1.5;
+  xbackground: var(--bg-color);
+}
+
+.album-title {
+  font-family: var(--font-title);
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+.album-artist {
+  font-size: var(--info-size-1);
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.album-year {
+  padding-left: 1.5rem;
+  font-size: var(--info-size-1);
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.album-genre {
+  padding-left: 1.5rem;
+  font-size: var(--info-size-1);
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.album-rating {
+  position: absolute;
+  width: 20px;
+  top: 0;
+  left: 0;
+  padding: 0.5rem;
+  background: rgb(0, 107, 66);
+  color: #fff;
+  transition: transform 0.5s ease;
+  font-size: 1rem;
+  border-radius: 50%;
+  margin: 8px;
+  font-family: var(--font-info);
+  text-align: center;
+}
+
+.album:hover .album-rating {
+  transform: translate(-3.5rem, 0px);
+  opacity: 1;
+}
+
+.album:hover .album-info {
+  transform: translate(25%, 0px);
+  opacity: 1;
+}
+
+.album:hover {
+  transform: scale(1.15);
+  cursor: none;
+}
+
+#album-grid-wrapper {
+  position: relative;
+}
+
+#album-grid.dimmed .album {
+  opacity: 0.3;
+  transition: opacity 0.5s ease;
+  z-index: 1;
+  filter: blur(1px);
+}
+
+
+#album-grid.dimmed .album:hover {
+  opacity: 1;
+  transition: transform 0.3s ease, opacity 0.5s ease;
+  z-index: 2;
+  filter: none;
+}
+
+.album img:hover {
+  box-shadow: 0 0 5em 0.2em var(--glow-color);
+  transition: all 0.5s ease;
+}

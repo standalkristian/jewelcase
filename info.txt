@@ -1,0 +1,2 @@
+IDEADS
+  - Add tracklist to album-info

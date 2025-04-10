@@ -1,0 +1,503 @@
+[
+  {
+      "artist": "Bon Iver",
+      "title": "22 A Million",
+      "cover": "bon-iver-22-a-million.jpg",
+      "type": "Album",
+      "release_year": 2016,
+      "main_genre": "Indie",
+      "rating": 10,
+      "tags": "[Electronic, Experimental]"
+  },
+  {
+      "artist": "Parcels",
+      "title": "Day-Night",
+      "cover": "parcels-day-night.jpg",
+      "type": "Album",
+      "release_year": 2021,
+      "main_genre": "Indietronica",
+      "rating": 10,
+      "tags": "[Nu-disco, Funk, Psychodelic pop, Soul, Alternativ dance, indie pop]"
+  },
+  {
+      "artist": "Daft Punk",
+      "title": "Discovery",
+      "cover": "daft-punk-discovery.jpg",
+      "type": "Album",
+      "release_year": 2001,
+      "main_genre": "House",
+      "rating": 10,
+      "tags": "[French house, Disco, Nu-disco, House, Electro-funk]"
+  },
+  {
+      "artist": "Parcels",
+      "title": "Live Vol 1",
+      "cover": "parcels-live-vol-1.jpg",
+      "type": "Live",
+      "release_year": 2020,
+      "main_genre": "Indietronica",
+      "rating": 10,
+      "tags": "[Nu-disco, Funk, Psychodelic pop, Soul, Alternativ dance, indie pop]"
+  },
+  {
+      "artist": "Fleetwood Mac",
+      "title": "Rumours",
+      "cover": "fleetwood-mac-rumours.jpg",
+      "type": "Album",
+      "release_year": 1977,
+      "main_genre": "Rock",
+      "rating": 10,
+      "tags": "[Something]"
+  },
+  {
+      "artist": "Porter Robinson",
+      "title": "SMILE",
+      "cover": "porter-robinson-smile.jpg",
+      "type": "Album",
+      "release_year": 2024,
+      "main_genre": "Electronic",
+      "rating": 10,
+      "tags": "[Indie, Alternative, Rock, Meloncholy, Inspiring, Relaxing, Sad, Nostalgic]"
+  },
+  {
+      "artist": "Gianni Brezzo",
+      "title": "Soundscapes Vol 1 Music for Harlequins",
+      "cover": "gianni-brezzo-soundscapes-vol-1-music-for-harlequins.jpg",
+      "type": "Album",
+      "release_year": 2023,
+      "main_genre": "Jazz",
+      "rating": 10,
+      "tags": "[Hip hop, Electronic, Experimental]"
+  },
+  {
+      "artist": "Toy Matinee",
+      "title": "Toy Matinee",
+      "cover": "toy-matinee-toy-matinee.jpg",
+      "type": "Album",
+      "release_year": 1990,
+      "main_genre": "Progressive Rock",
+      "rating": 10,
+      "tags": "[Something]"
+  },
+  {
+      "artist": "Burial",
+      "title": "Untrue",
+      "cover": "burial-untrue.jpg",
+      "type": "Album",
+      "release_year": 2007,
+      "main_genre": "Dubstep",
+      "rating": 10,
+      "tags": "[Something]"
+  },
+  {
+      "artist": "Susanne Sundfør",
+      "title": "Music for People in Trouble",
+      "cover": "susanne-sundfør-music-for-people-in-trouble.jpg",
+      "type": "Album",
+      "release_year": 2017,
+      "main_genre": "Folk Jazz",
+      "rating": 10,
+      "tags": "[Sad, Meloncholy, Emotional, Personal, Raw, Bare, Intimate, Theatrical]"
+  },
+  {
+      "artist": "Blossom Dearie",
+      "title": "Blossom Dearie (Expended Edition)",
+      "cover": "blossom-dearie-blossom-dearie-(expended-edition).jpg",
+      "type": "Album",
+      "release_year": 1957,
+      "main_genre": "Jazz",
+      "rating": 9.8,
+      "tags": "[Cool jazz, Relaxing, Romantic, Light, Smiling, Humorous]"
+  },
+  {
+      "artist": "Khamari",
+      "title": "A Brief Nirvana",
+      "cover": "khamari-a-brief-nirvana.jpg",
+      "type": "Album",
+      "release_year": 2023,
+      "main_genre": "R&B",
+      "rating": 9.8,
+      "tags": "[Soul, Hip hop]"
+  },
+  {
+      "artist": "The Flashbulb",
+      "title": "Compositions for Piano",
+      "cover": "the-flashbulb-compositions-for-piano.jpg",
+      "type": "Album",
+      "release_year": 2015,
+      "main_genre": "Modern Classical",
+      "rating": 9.8,
+      "tags": "[Piano]"
+  },
+  {
+      "artist": "MIles Davis",
+      "title": "In A Silent Way",
+      "cover": "miles-davis-in-a-silent-way.jpg",
+      "type": "Album",
+      "release_year": 1969,
+      "main_genre": "Jazz",
+      "rating": 9.8,
+      "tags": "[Experimental, Electronic]"
+  },
+  {
+      "artist": "The Japanese House",
+      "title": "In the End It Always Does",
+      "cover": "the-japanese-house-in-the-end-it-always-does.jpg",
+      "type": "Album",
+      "release_year": 2023,
+      "main_genre": "Indie",
+      "rating": 9.8,
+      "tags": "[Indie pop, Pop, Alternativ Pop, Dream pop, Electropop]"
+  },
+  {
+      "artist": "Miles Davis",
+      "title": "Kind Of Blue (Legacy Edition)",
+      "cover": "miles-davis-kind-of-blue-(legacy-edition).jpg",
+      "type": "Album",
+      "release_year": 1959,
+      "main_genre": "Jazz",
+      "rating": 9.8,
+      "tags": "[Something]"
+  },
+  {
+      "artist": "Jordan Rakai",
+      "title": "The Loop",
+      "cover": "jordan-rakai-the-loop.jpg",
+      "type": "Album",
+      "release_year": 2024,
+      "main_genre": "R&B",
+      "rating": 9.8,
+      "tags": "[Relaxing, Inspiring]"
+  },
+  {
+      "artist": "Parcels",
+      "title": "Parcels",
+      "cover": "parcels-parcels.jpg",
+      "type": "Album",
+      "release_year": 2018,
+      "main_genre": "Indietronica",
+      "rating": 9.7,
+      "tags": "[Nu-disco, Funk, Psychodelic pop, Soul, Alternativ dance, indie pop]"
+  },
+  {
+      "artist": "Carly Rae Jepsen",
+      "title": "EMOTION SIDE B",
+      "cover": "carly-rae-jepsen-emotion-side-b.jpg",
+      "type": "Album",
+      "release_year": 2016,
+      "main_genre": "Pop",
+      "rating": 9.5,
+      "tags": "[Bubblegum pop]"
+  },
+  {
+      "artist": "Quickly, Quickly",
+      "title": "The Long and Short of It",
+      "cover": "quickly,-quickly-the-long-and-short-of-it.jpg",
+      "type": "Album",
+      "release_year": 2021,
+      "main_genre": "Jazz",
+      "rating": 9.5,
+      "tags": "[Electronic, Fusion, Inspiring, Calm, Complex, Personal]"
+  },
+  {
+      "artist": "Bill Evans",
+      "title": "You Must Believe In Spring",
+      "cover": "bill-evans-you-must-believe-in-spring.jpg",
+      "type": "Album",
+      "release_year": 1981,
+      "main_genre": "Jazz",
+      "rating": 9.3,
+      "tags": "[Cool jazz, Soft jazz, Classic Piano, Relaxing, Complex, Cool, Romantic]"
+  },
+  {
+      "artist": "Benny Sings",
+      "title": "City Pop",
+      "cover": "benny-sings-city-pop.jpg",
+      "type": "Album",
+      "release_year": 2019,
+      "main_genre": "Indietronica",
+      "rating": 9.2,
+      "tags": "[Pop, Rock, Funk, R&B, Soul, Alternative, Jazz, Easy, Vibey, Funky, Sunny, Nice, Jazzy, Complex]"
+  },
+  {
+      "artist": "Tommy Guerrero",
+      "title": "Perpetual",
+      "cover": "tommy-guerrero-perpetual.jpg",
+      "type": "Album",
+      "release_year": 2015,
+      "main_genre": "Jazz",
+      "rating": 9.2,
+      "tags": "[Electronic, Indie, Alternative, Skate, Surfer, Vibes, Relaxed, Spiritual]"
+  },
+  {
+      "artist": "River Tiber",
+      "title": "Dreaming Eyes",
+      "cover": "river-tiber-dreaming-eyes.jpg",
+      "type": "Album",
+      "release_year": 2022,
+      "main_genre": "Psychedelic Soul",
+      "rating": 9.2,
+      "tags": "[Cosmic jazz, Rock, Experminetal, Beats, Electronic, Toronto, Contemporary, Indie/Alternative, Peaceful, Laid-back]"
+  },
+  {
+      "artist": "The Durutti Column",
+      "title": "The Return of The Durutti Column",
+      "cover": "the-durutti-column-the-return-of-the-durutti-column.jpg",
+      "type": "Album",
+      "release_year": 1979,
+      "main_genre": "Ambient",
+      "rating": 9.1,
+      "tags": "[Dream pop, Post-punk, Inspiring, Complex, Walks, City/Nature]"
+  },
+  {
+      "artist": "Uyama Hiroto",
+      "title": "Breath of Love",
+      "cover": "uyama-hiroto-breath-of-love.jpg",
+      "type": "Album",
+      "release_year": 2024,
+      "main_genre": "Jazz",
+      "rating": 9.1,
+      "tags": "[Downtempo, Jazz-Hop, Hip hop, Smooth, Chill, Warm, Laid-back, Dreamy, Walks, Content, Peaceful]"
+  },
+  {
+      "artist": "Pedro Martins",
+      "title": "Rádio Mistério",
+      "cover": "pedro-martins-rádio-mistério.jpg",
+      "type": "Album",
+      "release_year": 2023,
+      "main_genre": "Jazz Fusion",
+      "rating": 9.5,
+      "tags": "[Progressive Pop, Bassa Nova, Synth-Pop, Indie Rock, Experimental Pop, Experimental, Complex, Fun, Multi-instrumentalist, Melodic, Atmospheric, Genre-blending]"
+  },
+  {
+      "artist": "Frank Ocean",
+      "title": "Blonde",
+      "cover": "frank-ocean-blonde.jpg",
+      "type": "Album",
+      "release_year": 2016,
+      "main_genre": "R&B",
+      "rating": 9,
+      "tags": "[Hip Hop, Avant-garde, Soul, Pop, Psychodelic pop]",
+      "": "Hip Hop, Avant-garde, Soul, Pop, Psychodelic pop"
+  },
+  {
+      "artist": "Mndsgn",
+      "title": "Breatharian",
+      "cover": "mndsgn-breatharian.jpg",
+      "type": "Album",
+      "release_year": 2013,
+      "main_genre": "Hip hop",
+      "rating": 9,
+      "tags": "[Electronic, Experimental]",
+      "": "Electronic, Experimental"
+  },
+  {
+      "artist": "Mat Zo",
+      "title": "Damage Control",
+      "cover": "mat-zo-damage-control.jpg",
+      "type": "Album",
+      "release_year": 2013,
+      "main_genre": "Progressive house",
+      "rating": 9,
+      "tags": "[Electro house, electronica]",
+      "": "Electro house, electronica"
+  },
+  {
+      "artist": "Terrace Martin",
+      "title": "Dinner Party",
+      "cover": "terrace-martin-dinner-party.jpg",
+      "type": "Album",
+      "release_year": 2020,
+      "main_genre": "Hip Hop",
+      "rating": 9,
+      "tags": "[Hip hop, Jazz rap]",
+      "": "Hip hop, Jazz rap"
+  },
+  {
+      "artist": "Oklou",
+      "title": "Galore",
+      "cover": "oklou-galore.jpg",
+      "type": "Album",
+      "release_year": 2020,
+      "main_genre": "Pop",
+      "rating": 9,
+      "tags": "[Synth Pop]",
+      "": "Synth Pop"
+  },
+  {
+      "artist": "Bark Psychosis",
+      "title": "Hex",
+      "cover": "bark-psychosis-hex.jpg",
+      "type": "Album",
+      "release_year": 1994,
+      "main_genre": "Post rock",
+      "rating": 9,
+      "tags": "[Rock, Alternativ rock, Experimental]",
+      "": "Rock, Alternativ rock, Experimental"
+  },
+  {
+      "artist": "The Japanese House",
+      "title": "ITEIAD Sessions",
+      "cover": "the-japanese-house-iteiad-sessions.jpg",
+      "type": "Live",
+      "release_year": 2023,
+      "main_genre": "Indie",
+      "rating": 9,
+      "tags": "[Indie pop, Pop, Alternativ Pop, Dream pop, Electropop]",
+      "": "Indie pop, Pop, Alternativ Pop, Dream pop, Electropop"
+  },
+  {
+      "artist": "Clark",
+      "title": "Kiri Variations",
+      "cover": "clark-kiri-variations.jpg",
+      "type": "Album",
+      "release_year": 2019,
+      "main_genre": "Electronic",
+      "rating": 9,
+      "tags": "[Experimental]",
+      "": "Experimental"
+  },
+  {
+      "artist": "Talk Talk",
+      "title": "Laughing Stock",
+      "cover": "talk-talk-laughing-stock.jpg",
+      "type": "Album",
+      "release_year": 1991,
+      "main_genre": "Post rock",
+      "rating": 9,
+      "tags": "[Rock, Alternativ rock, Experimental]",
+      "": "Rock, Alternativ rock, Experimental"
+  },
+  {
+      "artist": "Cass",
+      "title": "Masala Kiss",
+      "cover": "cass-masala-kiss.jpg",
+      "type": "Album",
+      "release_year": 2019,
+      "main_genre": "Electronic",
+      "rating": 9,
+      "tags": "[Experimental, Jazz, Fusion]",
+      "": "Experimental, Jazz, Fusion"
+  },
+  {
+      "artist": "Boards of Canada",
+      "title": "Music Has The Right To Children",
+      "cover": "boards-of-canada-music-has-the-right-to-children.jpg",
+      "type": "Album",
+      "release_year": 1998,
+      "main_genre": "Electronic",
+      "rating": 9,
+      "tags": "[Trippy, Nostalgic, Creative, Downtempo, Ambient, IDM, Trip hop, Psychedelia]",
+      "": "Trippy, Nostalgic, Creative"
+  },
+  {
+      "artist": "Daft Punk",
+      "title": "Random Access Memories",
+      "cover": "daft-punk-random-access-memories.jpg",
+      "type": "Album",
+      "release_year": 2013,
+      "main_genre": "Electronic",
+      "rating": 9,
+      "tags": "[Disco, Funk, Soft rock, ]",
+      "": "Disco, Funk, Soft rock, "
+  },
+  {
+      "artist": "Paul Simon",
+      "title": "Still Crazy After All These Years",
+      "cover": "paul-simon-still-crazy-after-all-these-years.jpg",
+      "type": "Album",
+      "release_year": 1975,
+      "main_genre": "Rock",
+      "rating": 9,
+      "tags": "[Rock, Folk]",
+      "": "Rock, Folk"
+  },
+  {
+      "artist": "Espen Horne",
+      "title": "The Anatomy Of Serene Eloquence",
+      "cover": "espen-horne-the-anatomy-of-serene-eloquence.jpg",
+      "type": "Album",
+      "release_year": 2023,
+      "main_genre": "Jazz",
+      "rating": 9,
+      "tags": "[Norsk, Relaxing, Exciting, Live, Walks, Nu jazz, Fusion, Experimental, Hip hop]",
+      "": "Norsk, Relaxing, Exciting, Live, Walks"
+  },
+  {
+      "artist": "Gregory Alan Isakov",
+      "title": "This Empty Northern Hemisphere",
+      "cover": "gregory-alan-isakov-this-empty-northern-hemisphere.jpg",
+      "type": "Album",
+      "release_year": 2009,
+      "main_genre": "Folk",
+      "rating": 9,
+      "tags": "[Contemporary Folk, Indie, Country]",
+      "": "Contemporary Folk, Indie, Country"
+  },
+  {
+      "artist": "Gianni Brezzo",
+      "title": "Traditional Heart",
+      "cover": "gianni-brezzo-traditional-heart.jpg",
+      "type": "Album",
+      "release_year": 2020,
+      "main_genre": "Electronic",
+      "rating": 9,
+      "tags": "[Something]",
+      "": "Something"
+  },
+  {
+      "artist": "Navy Blue",
+      "title": "Ways of Knowing",
+      "cover": "navy-blue-ways-of-knowing.jpg",
+      "type": "Album",
+      "release_year": 2023,
+      "main_genre": "Hip hop",
+      "rating": 9,
+      "tags": "[Hip hop, Jazz rap, Alternative hip hop]",
+      "": "Hip hop, Jazz rap, Alternative hip hop"
+  },
+  {
+      "artist": "Snarky Puppy",
+      "title": "We Like It Here",
+      "cover": "snarky-puppy-we-like-it-here.jpg",
+      "type": "Live",
+      "release_year": 2014,
+      "main_genre": "Jazz",
+      "rating": 9,
+      "tags": "[Jazz fusion]",
+      "": "Jazz fusion"
+  },
+  {
+      "artist": "ZG, Grant",
+      "title": "ZG",
+      "cover": "zg-zg.jpg",
+      "type": "Album",
+      "release_year": 2022,
+      "main_genre": "Electronic",
+      "rating": 9,
+      "tags": "[Relaxing, Inspiring, Walks, City night, Progrssive House, IDM]",
+      "": "Relaxing, Inspiring, Walks, City night"
+  },
+  {
+      "artist": "DO Make Say Think",
+      "title": "Goodbye Enemy Airship The Landlord Is Dead",
+      "cover": "do-make-say-think-goodbye-enemy-airship-the-landlord-is-dead.jpg",
+      "type": "Album",
+      "release_year": 2000,
+      "main_genre": "Post-rock",
+      "rating": 9.1,
+      "tags": "[Atmospheric, Meloncholy, Walks, Dynamic, Textural, Experimental, Dark, Experimental rock, Instrumental Rock]",
+      "": "Atmospheric, Meloncholy, Walks, Dynamic, Textural, Experimental, Dark"
+  },
+  {
+      "artist": "Olly Steele",
+      "title": "Imbalance",
+      "cover": "olly-steele-imbalance.jpg",
+      "type": "EP",
+      "release_year": 2024,
+      "main_genre": "Progressive Metal",
+      "rating": 8.8,
+      "tags": "[Prog Metal, Groove rock]",
+      "": "Prog Metal, Groove rock"
+  }
+]
