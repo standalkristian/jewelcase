@@ -60,7 +60,7 @@ fetch('data/albums.json')
       album.tags.forEach(tag => {
         const tagSpan = document.createElement('span');
         tagSpan.classList.add('tag');
-        tagSpan.innerHTML = `&sdot;${tag}<br>`;
+        tagSpan.innerHTML = `&sdot; ${tag}<br>`;
         albumTags.appendChild(tagSpan);
       });
       albumInfo.appendChild(albumTags);  
