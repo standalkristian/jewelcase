@@ -675,7 +675,11 @@
         "release_year": 2023,
         "main_genre": "Hip hop",
         "rating": 9,
-        "tags": "[\"JazzRap\",\"Alternative\",HipHop\"]"
+        "tags": [
+            "JazzRap",
+            "Alternative",
+            "HipHop"
+        ]
     },
     {
         "artist": "Snarky Puppy",
@@ -734,6 +738,9 @@
         "release_year": 2024,
         "main_genre": "Progressive Metal",
         "rating": 8.8,
-        "tags": "[ProgMetal,Grooverock]"
+        "tags": [
+            "ProgMetal",
+            "Grooverock"
+        ]
     }
 ]
