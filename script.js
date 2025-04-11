@@ -53,7 +53,17 @@ fetch('data/albums.json')
       const albumGenre = document.createElement('span');
       albumGenre.classList.add('album-genre');
       albumGenre.innerHTML = `${album.main_genre}<br>`;
-      albumInfo.appendChild(albumGenre);      
+      albumInfo.appendChild(albumGenre);
+
+      const albumTags = document.createElement('div');
+      albumTags.classList.add('album-tags');
+      album.tags.forEach(tag => {
+        const tagSpan = document.createElement('span');
+        tagSpan.classList.add('tag');
+        tagSpan.innerHTML = `${tag}<br>`;
+        albumTags.appendChild(tagSpan);
+      });
+      albumInfo.appendChild(albumTags);  
 
       const albumRating = document.createElement('div');
       albumRating.classList.add('album-rating');
