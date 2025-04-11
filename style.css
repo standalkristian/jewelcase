@@ -140,6 +140,12 @@ header-depr2 {
   text-align: center;
 }
 
+.album-tags {
+  font-size: var(--info-size-1);
+  font-family: var(--font-info);
+  padding-top: 2rem;
+}
+
 .album:hover .album-rating {
   transform: translate(-3.5rem, 0px);
   opacity: 1;
