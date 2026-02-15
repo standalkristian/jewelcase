@@ -1,0 +1,99 @@
+:root {
+  --text-main: #ffffff;
+  --font-header: "Dr Sugiyama", cursive;
+  --font-title: "Knewave", system-ui;
+  --font-info: "Quicksand", sans-serif;
+}
+
+/* ===== Background (your pattern restored) ===== */
+
+html {
+  --s: 100px;
+  --c1: #7a613f;
+  --c2: #3d0318;
+
+  --_g:
+     var(--c2) 6% 14%,
+     var(--c1) 16% 24%,
+     var(--c2) 26% 34%,
+     var(--c1) 36% 44%,
+     var(--c2) 46% 54%,
+     var(--c1) 56% 64%,
+     var(--c2) 66% 74%,
+     var(--c1) 76% 84%,
+     var(--c2) 86% 94%;
+
+  background:
+    radial-gradient(100% 100% at 100% 0,
+      var(--c1) 4%,
+      var(--_g),
+      #0008 96%,
+      #0000),
+    radial-gradient(100% 100% at 0 100%,
+      #0000,
+      #0008 4%,
+      var(--_g),
+      var(--c1) 96%)
+    var(--c1);
+
+  background-size: var(--s) var(--s);
+}
+
+body {
+  margin: 0;
+  color: var(--text-main);
+  font-family: sans-serif;
+  background: transparent;
+}
+
+/* ===== Header ===== */
+
+.site-header {
+  padding: 4rem 1rem 1rem 8rem;
+  font-family: var(--font-header);
+  font-size: 2rem;
+}
+
+.site-header h1 {
+  margin: 0;
+}
+
+/* ===== Grid ===== */
+
+.album-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+  padding: 0 4rem 3rem 8rem;
+}
+
+/* ===== Album card ===== */
+
+.album-card {
+  position: relative;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 1rem 2rem;
+  background: #000;
+}
+
+.album-cover {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  display: block;
+}
+
+/* rating badge */
+
+.album-rating {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  padding: 0.35rem 0.45rem;
+  font-size: 0.75rem;
+  border-radius: 50%;
+  font-family: var(--font-info);
+  font-weight: bold;
+  color: white;
+}
