@@ -1,6 +1,24 @@
 // ===== helpers =====
 
+function setTracklist(id, values) {
+  const el = document.getElementById(id);
+  if (!el) return;
+  el.innerHTML = "";
 
+  const list = Array.isArray(values) ? values.map(norm).filter(Boolean) : [];
+  if (list.length === 0) {
+    const li = document.createElement("li");
+    li.textContent = "—";
+    el.appendChild(li);
+    return;
+  }
+
+  list.forEach((track) => {
+    const li = document.createElement("li");
+    li.textContent = track;
+    el.appendChild(li);
+  });
+}
 
 function shuffle(array) {
   const copy = [...array];
@@ -12,84 +30,91 @@ function shuffle(array) {
 }
 
 function getRatingColor(rating) {
-  if (rating === 10) return '#7f48df';
-  if (rating >= 9.5) return '#D4AF37';
-  if (rating >= 8.8) return '#FF7043';
-  if (rating >= 8.0) return '#29B6F6';
-  return '#888';
+  if (rating === 10) return "#7f48df";
+  if (rating >= 9.5) return "#D4AF37";
+  if (rating >= 8.8) return "#FF7043";
+  if (rating >= 8.0) return "#29B6F6";
+  return "#888";
 }
 
 function norm(s) {
-  return String(s ?? '').trim();
+  return String(s ?? "").trim();
 }
 
 function uniqSorted(values) {
-  return Array.from(new Set(values.map(norm).filter(Boolean))).sort((a, b) => a.localeCompare(b));
+  return Array.from(new Set(values.map(norm).filter(Boolean))).sort((a, b) =>
+    a.localeCompare(b),
+  );
 }
 
 function clear(el) {
-  el.innerHTML = '';
+  el.innerHTML = "";
 }
 
 function setText(id, value) {
   const el = document.getElementById(id);
   if (!el) return;
-  el.textContent = value ?? '';
+  el.textContent = value ?? "";
 }
 
 function setPills(id, values) {
   const el = document.getElementById(id);
   if (!el) return;
-  el.innerHTML = '';
+  el.innerHTML = "";
 
   const list = Array.isArray(values) ? values : [];
-  list.map(norm).filter(Boolean).forEach(v => {
-    const pill = document.createElement('span');
-    pill.className = 'pill';
-    pill.textContent = v;
-    el.appendChild(pill);
-  });
+  list
+    .map(norm)
+    .filter(Boolean)
+    .forEach((v) => {
+      const pill = document.createElement("span");
+      pill.className = "pill";
+      pill.textContent = v;
+      el.appendChild(pill);
+    });
 
   if (el.children.length === 0) {
-    const pill = document.createElement('span');
-    pill.className = 'pill';
-    pill.textContent = '—';
+    const pill = document.createElement("span");
+    pill.className = "pill";
+    pill.textContent = "—";
     el.appendChild(pill);
   }
 }
 
 function openAlbumModal(album) {
-  const modal = document.getElementById('album-modal');
-  const cover = document.getElementById('modal-cover');
+  const modal = document.getElementById("album-modal");
+  const cover = document.getElementById("modal-cover");
 
   cover.src = `images/${album.cover}`;
   cover.alt = `${album.artist} - ${album.title}`;
 
-  setText('modal-title', album.title);
-  setText('modal-subtitle', album.artist);
+  setText("modal-title", album.title);
+  setText("modal-subtitle", album.artist);
 
-  setText('modal-year', album.release_year ?? '—');
-  setText('modal-type', album.type ?? '—');
-  setText('modal-genre', album.main_genre ?? '—');
-  setText('modal-rating', album.rating ?? '—');
-  const ratingEl = document.getElementById('modal-rating');
-if (ratingEl) {
-  const r = Number(album.rating);
-  ratingEl.style.background = Number.isFinite(r) ? getRatingColor(r) : '#888';
-}
+  setText("modal-runtime", album.runtime ?? "—");
+  setTracklist("modal-tracklist", album.tracklist);
 
+  setText("modal-year", album.release_year ?? "—");
+  setText("modal-type", album.type ?? "—");
+  setText("modal-genre", album.main_genre ?? "—");
+  setText("modal-rating", album.rating ?? "—");
+  const ratingEl = document.getElementById("modal-rating");
+  if (ratingEl) {
+    const r = Number(album.rating);
+    ratingEl.style.background = Number.isFinite(r) ? getRatingColor(r) : "#888";
+  }
 
-  setPills('modal-mood', album.mood);
-  setPills('modal-tags', album.tags);
+  setPills("modal-mood", album.mood);
+  setPills("modal-tags", album.tags);
 
-  modal.classList.add('is-open');
-  modal.setAttribute('aria-hidden', 'false');
+  modal.classList.add("is-open");
+  modal.setAttribute("aria-hidden", "false");
 }
 
 function closeAlbumModal() {
-  const modal = document.getElementById('album-modal');
-  modal.classList.remove('is-open');
-  modal.setAttribute('aria-hidden', 'true');
+  const modal = document.getElementById("album-modal");
+  modal.classList.remove("is-open");
+  modal.setAttribute("aria-hidden", "true");
 }
 
 // ===== filtering logic =====
@@ -101,11 +126,10 @@ function matchesFilters(album, state) {
 
   const moods = Array.isArray(album.mood) ? album.mood.map(norm) : [];
   const moodOk =
-    state.moods.size === 0 || moods.some(m => state.moods.has(m));
+    state.moods.size === 0 || moods.some((m) => state.moods.has(m));
 
   const tags = Array.isArray(album.tags) ? album.tags.map(norm) : [];
-  const tagOk =
-    state.tags.size === 0 || tags.some(t => state.tags.has(t));
+  const tagOk = state.tags.size === 0 || tags.some((t) => state.tags.has(t));
 
   return genreOk && moodOk && tagOk;
 }
@@ -115,21 +139,32 @@ function matchesFilters(album, state) {
 function renderAlbums(albums, grid) {
   clear(grid);
 
-  albums.forEach(album => {
-    const card = document.createElement('div');
-    card.className = 'album-card';
-    card.addEventListener('click', (e) => {
-  e.stopPropagation(); // ⭐ critical
-  openAlbumModal(album);
-});
+  albums.forEach((album) => {
+    const card = document.createElement("div");
 
-    const img = document.createElement('img');
-    img.className = 'album-cover';
+    card.addEventListener("mouseenter", () => {
+      // random between -5 and +15 (right-biased)
+      const angle = (-1.5 + Math.random() * 2.2).toFixed(2);
+      card.style.setProperty("--hover-rot", `${angle}deg`);
+    });
+
+    card.addEventListener("mouseleave", () => {
+      card.style.removeProperty("--hover-rot");
+    });
+
+    card.className = "album-card";
+    card.addEventListener("click", (e) => {
+      e.stopPropagation(); // ⭐ critical
+      openAlbumModal(album);
+    });
+
+    const img = document.createElement("img");
+    img.className = "album-cover";
     img.src = `images/${album.cover}`;
     img.alt = `${album.artist} - ${album.title}`;
 
-    const rating = document.createElement('div');
-    rating.className = 'album-rating';
+    const rating = document.createElement("div");
+    rating.className = "album-rating";
     rating.textContent = album.rating;
     rating.style.background = getRatingColor(Number(album.rating));
 
@@ -142,14 +177,14 @@ function renderAlbums(albums, grid) {
 function renderChips(container, values, selectedSet, onToggle) {
   clear(container);
 
-  values.forEach(value => {
-    const chip = document.createElement('div');
-    chip.className = 'filter-chip';
+  values.forEach((value) => {
+    const chip = document.createElement("div");
+    chip.className = "filter-chip";
     chip.textContent = value;
 
-    if (selectedSet.has(value)) chip.classList.add('is-active');
+    if (selectedSet.has(value)) chip.classList.add("is-active");
 
-    chip.addEventListener('click', () => onToggle(value));
+    chip.addEventListener("click", () => onToggle(value));
     container.appendChild(chip);
   });
 }
@@ -157,40 +192,41 @@ function renderChips(container, values, selectedSet, onToggle) {
 // ===== main =====
 
 async function init() {
-  const grid = document.getElementById('album-grid');
+  const grid = document.getElementById("album-grid");
 
-  const modal = document.getElementById('album-modal');
+  const modal = document.getElementById("album-modal");
 
-modal.addEventListener('click', () => {
-  closeAlbumModal();
-});
+  modal.addEventListener("click", () => {
+    closeAlbumModal();
+  });
 
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") closeAlbumModal();
+  });
+  const genresEl = document.getElementById("filter-genres");
+  const moodsEl = document.getElementById("filter-moods");
+  const tagsEl = document.getElementById("filter-tags");
+  const clearBtn = document.getElementById("clear-filters");
 
-document.addEventListener('keydown', (e) => {
-  if (e.key === 'Escape') closeAlbumModal();
-});
-  const genresEl = document.getElementById('filter-genres');
-  const moodsEl = document.getElementById('filter-moods');
-  const tagsEl = document.getElementById('filter-tags');
-  const clearBtn = document.getElementById('clear-filters');
-
-  const response = await fetch('data/albums.json');
+  const response = await fetch("data/albums.json");
   const allAlbums = shuffle(await response.json());
 
   // build distinct lists
-  const allGenres = uniqSorted(allAlbums.map(a => a.main_genre));
-const allMoods = uniqSorted(
-  allAlbums
-    .flatMap(a => Array.isArray(a.mood) ? a.mood : [])
-    .filter(m => norm(m).toLowerCase() !== 'placeholder')
-);
+  const allGenres = uniqSorted(allAlbums.map((a) => a.main_genre));
+  const allMoods = uniqSorted(
+    allAlbums
+      .flatMap((a) => (Array.isArray(a.mood) ? a.mood : []))
+      .filter((m) => norm(m).toLowerCase() !== "placeholder"),
+  );
 
-  const allTags  = uniqSorted(allAlbums.flatMap(a => Array.isArray(a.tags) ? a.tags : []));
+  const allTags = uniqSorted(
+    allAlbums.flatMap((a) => (Array.isArray(a.tags) ? a.tags : [])),
+  );
 
   const state = {
     genres: new Set(),
     moods: new Set(),
-    tags: new Set()
+    tags: new Set(),
   };
 
   function rerender() {
@@ -210,11 +246,11 @@ const allMoods = uniqSorted(
       rerender();
     });
 
-    const visible = allAlbums.filter(a => matchesFilters(a, state));
+    const visible = allAlbums.filter((a) => matchesFilters(a, state));
     renderAlbums(visible, grid);
   }
 
-  clearBtn.addEventListener('click', () => {
+  clearBtn.addEventListener("click", () => {
     state.genres.clear();
     state.moods.clear();
     state.tags.clear();
@@ -224,4 +260,4 @@ const allMoods = uniqSorted(
   rerender();
 }
 
-init().catch(err => console.error('Init failed:', err));
+init().catch((err) => console.error("Init failed:", err));

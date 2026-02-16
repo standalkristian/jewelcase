@@ -13,15 +13,15 @@ html {
   --c2: #3d0318;
 
   --_g:
-     var(--c2) 6% 14%,
-     var(--c1) 16% 24%,
-     var(--c2) 26% 34%,
-     var(--c1) 36% 44%,
-     var(--c2) 46% 54%,
-     var(--c1) 56% 64%,
-     var(--c2) 66% 74%,
-     var(--c1) 76% 84%,
-     var(--c2) 86% 94%;
+    var(--c2) 6% 14%,
+    var(--c1) 16% 24%,
+    var(--c2) 26% 34%,
+    var(--c1) 36% 44%,
+    var(--c2) 46% 54%,
+    var(--c1) 56% 64%,
+    var(--c2) 66% 74%,
+    var(--c1) 76% 84%,
+    var(--c2) 86% 94%;
 
   background:
     radial-gradient(100% 100% at 100% 0,
@@ -33,15 +33,16 @@ html {
       #0000,
       #0008 4%,
       var(--_g),
-      var(--c1) 96%)
-    var(--c1);
+      var(--c1) 96%) var(--c1);
 
   background-size: var(--s) var(--s);
 }
 
-html, body {
+html,
+body {
   height: 100%;
-  overflow: hidden; /* page itself never scrolls */
+  overflow: hidden;
+  /* page itself never scrolls */
 }
 
 body {
@@ -51,7 +52,8 @@ body {
   background: transparent;
 
   display: grid;
-  grid-template-rows: auto 1fr; /* header row + content row */
+  grid-template-rows: auto 1fr;
+  /* header row + content row */
 }
 
 /* ===== Header ===== */
@@ -69,10 +71,12 @@ body {
 /* ===== Layout (grid + sidebar) ===== */
 
 .layout {
-  min-height: 0; /* critical */
+  min-height: 0;
+  /* critical */
   display: grid;
   grid-template-columns: 1fr 320px;
-  overflow: hidden; /* keep scroll inside children */
+  overflow: hidden;
+  /* keep scroll inside children */
 }
 
 
@@ -97,8 +101,10 @@ body {
 .filters {
   padding: 1rem 2rem 3rem 1rem;
 
-  min-height: 0;        /* critical */
-  overflow-y: auto;     /* scroll here */
+  min-height: 0;
+  /* critical */
+  overflow-y: auto;
+  /* scroll here */
   scrollbar-width: none;
 }
 
@@ -124,7 +130,7 @@ body {
   border: 0;
   border-radius: 0.25rem;
   cursor: pointer;
-  background: rgba(0,0,0,0.35);
+  background: rgba(0, 0, 0, 0.35);
   color: white;
 }
 
@@ -149,17 +155,20 @@ body {
 
 .filter-chip {
   font-family: var(--font-info);
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   padding: 0.25rem 0.5rem;
-  background: rgba(0,0,0,0.35);
+  background: rgba(0, 0, 0, 0.35);
   border-radius: 0.25rem;
   cursor: pointer;
   user-select: none;
 }
 
+.filter-chip:hover {
+  background: rgba(0, 0, 0, 0.5);
+}
+
 .filter-chip.is-active {
-  outline: 2px solid rgba(255,255,255,0.85);
-  outline-offset: 2px;
+  background: rgba(0, 0, 0, 1);
 }
 
 /* ===== Album card ===== */
@@ -175,14 +184,14 @@ body {
   overflow: hidden;
   box-shadow: rgba(0, 0, 0, 0.35) 0 1rem 2rem;
   background: #000;
-  transition: transform 120ms ease-out;
+  transition: transform 140ms cubic-bezier(.2, .8, .2, 1);
   will-change: transform;
   cursor: pointer;
-  transform-origin: center top;
+  transform-origin: center 42%;
 }
 
 .album-card:hover {
-  transform: scale(1.04);
+  transform: scale(1.025) rotate(var(--hover-rot, 0deg));
   z-index: 10;
 }
 
@@ -215,6 +224,15 @@ body {
   font-family: var(--font-info);
   font-weight: bold;
   color: white;
+
+  transition: brightness 140ms cubic-bezier(.2, .8, .2, 1);
+  transform: scale(1);
+  filter: brightness(0.75);
+}
+
+.album-card:hover .album-rating {
+  xtransform: scale(1.12);
+  filter: brightness(1);
 }
 
 .album-grid-scroll {
@@ -304,19 +322,19 @@ body {
 }
 
 .modal-cover-wrap {
-  padding: 1rem;
+  padding: 2rem;
 }
 
 .modal-cover {
   width: 100%;
   aspect-ratio: 1 / 1;
   object-fit: cover;
-  border-radius: 0.5rem;
+  border-radius: 1rem;
   display: block;
 }
 
 .modal-info {
-  padding: 1rem 1.25rem 1.25rem 0.25rem;
+  padding: 2rem 2rem 2rem 0.25rem;
   font-family: var(--font-info);
 }
 
@@ -337,9 +355,8 @@ body {
 }
 
 .modal-meta {
-  margin-top: 1rem;
+  margin-top: 2rem;
   display: grid;
-  xgrid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 0.5rem 1rem;
   font-size: 1rem;
 }
@@ -353,7 +370,7 @@ body {
 }
 
 .modal-section {
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 .section-label {
@@ -377,11 +394,16 @@ body {
   background: rgba(255, 255, 255, 0.08);
 }
 
+.pill:hover {
+  background: rgba(255, 255, 255, 0.16)
+}
+
 /* Mobile layout */
 @media (max-width: 900px) {
   .modal-content {
     grid-template-columns: 1fr;
   }
+
   .modal-info {
     padding: 0 1rem 1rem 1rem;
   }
@@ -392,6 +414,11 @@ body {
   grid-template-columns: auto 1fr;
   column-gap: 1.4rem;
   align-items: center;
+
+  padding-bottom: 1.8rem;
+  margin-bottom: 0.85rem;
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
 }
 
 .modal-rating {
@@ -413,17 +440,64 @@ body {
 .modal-heading {
   display: flex;
   flex-direction: column;
-  gap: 0.2rem; /* adjust */
-  min-width: 0; /* prevents weird overflow/nowrap issues */
+  gap: 0.2rem;
+  /* adjust */
+  min-width: 0;
+  /* prevents weird overflow/nowrap issues */
 }
 
 
 
 /* accessibility: respect reduced motion */
 @media (prefers-reduced-motion: reduce) {
+
   .modal,
   .modal .modal-panel,
   .modal-backdrop {
     transition: none !important;
+  }
+}
+
+.modal-body {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* left + right */
+  gap: 1.25rem;
+  align-items: start;
+}
+
+.runtime-text {
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+/* Tracklist styling */
+.tracklist {
+  margin: 0;
+  padding-left: 1.2rem;
+  /* keeps numbers aligned nicely */
+  line-height: 1.6;
+  font-size: 0.9rem;
+  opacity: 0.95;
+
+  max-height: 46vh;
+  /* prevents huge tracklists from stretching modal */
+  overflow-y: auto;
+  /* scroll inside tracklist if needed */
+}
+
+.tracklist li {
+  margin: 0.15rem 0;
+  opacity: 0.95;
+}
+
+@media (max-width: 900px) {
+  .modal-body {
+    grid-template-columns: 1fr;
+  }
+
+  .tracklist {
+    max-height: 30vh;
   }
 }

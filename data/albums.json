@@ -925,6 +925,7 @@
     "release_year": 2022,
     "main_genre": "Jazz",
     "rating": 8.8,
+    "runtime": "12 tracks, 43 minutes 21 seconds",
     "tags": [
       "Nu jazz",
       "Hip Hop",
@@ -940,7 +941,21 @@
     ],
     "mood": [
       "placeholder"
-    ]
+    ],
+      "tracklist": [
+        "Il Consiglio (4:40)",
+        "Capture This (3:45)",
+        "Il Sole (4:21)",
+        "Rising of My Mind (4:29)",
+        "Anima (3:38)",
+        "Meditation (2:43)",
+        "Torino Intro (0:38)",
+        "Torino (3:42)",
+        "Vieni Con Me (3:54)",
+        "Now (3:48)",
+        "Fiore Della Mia Vita (4:22)",
+        "Auguria (3:14)"
+      ]
   },
   {
     "artist": "Butcher Brown",
