@@ -18,9 +18,75 @@
     <h1>Jewelcase</h1>
   </header>
 
-  <main>
-    <section id="album-grid" class="album-grid"></section>
-  </main>
+<main class="layout">
+  <section class="album-grid-scroll">
+    <div id="album-grid" class="album-grid"></div>
+  </section>
+
+  <aside class="filters">
+    <div class="filters-header">
+      <div class="filters-title">Filters</div>
+      <button id="clear-filters" class="btn-clear" type="button">Clear</button>
+    </div>
+
+    <div class="filter-section">
+      <div class="filter-label">Genre</div>
+      <div id="filter-genres" class="filter-group"></div>
+    </div>
+
+    <div class="filter-section">
+      <div class="filter-label">Mood</div>
+      <div id="filter-moods" class="filter-group"></div>
+    </div>
+
+    <div class="filter-section">
+      <div class="filter-label">Tags</div>
+      <div id="filter-tags" class="filter-group"></div>
+    </div>
+  </aside>
+</main>
+
+
+<!-- Album modal -->
+<div id="album-modal" class="modal" aria-hidden="true">
+  <div class="modal-backdrop" data-close="true"></div>
+
+  <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    
+
+    <div class="modal-content">
+      <div class="modal-cover-wrap">
+        <img id="modal-cover" class="modal-cover" alt="" />
+      </div>
+
+      <div class="modal-info">
+      <div class="modal-header">
+        <div id="modal-rating" class="modal-rating"></div>
+        <div class="modal-heading">
+        <div id="modal-title" class="modal-title"></div>
+        <div id="modal-subtitle" class="modal-subtitle"></div>
+        </div>
+      </div>
+
+        <div class="modal-meta">
+          <div><span class="meta-label">Year</span> <span id="modal-year"></span></div>
+          <div><span class="meta-label">Type</span> <span id="modal-type"></span></div>
+          <div><span class="meta-label">Genre</span> <span id="modal-genre"></span></div>
+        </div>
+
+        <div class="modal-section">
+          <div class="section-label">Mood</div>
+          <div id="modal-mood" class="pill-row"></div>
+        </div>
+
+        <div class="modal-section">
+          <div class="section-label">Tags</div>
+          <div id="modal-tags" class="pill-row"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
   <script src="script.js"></script>
 </body>

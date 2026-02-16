@@ -1,5 +1,20 @@
 [
   {
+    "artist": "Sérgio Mendes",
+    "title": "The Swinger From Rio",
+    "cover": "sergio-mendes-the-swinger-from-rio.jpg",
+    "type": "Album",
+    "release_year": 1966,
+    "main_genre": "Jazz",
+    "rating": 10,
+    "tags": [
+      "Placeholder"
+    ],
+    "mood": [
+      "placeholder"
+    ]
+  },
+  {
     "artist": "Bon Iver",
     "title": "22 A Million",
     "cover": "bon-iver-22-a-million.jpg",
@@ -1507,7 +1522,7 @@
     "type": "Album",
     "release_year": 2023,
     "main_genre": "Afro beat",
-    "rating": 9999999,
+    "rating": 5,
     "tags": [
       "Something"
     ],
