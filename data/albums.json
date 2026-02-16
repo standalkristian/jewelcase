@@ -7,11 +7,25 @@
     "release_year": 1966,
     "main_genre": "Jazz",
     "rating": 10,
+    "runtime": "11 tracks, 38 minutes and 32 seconds",
     "tags": [
       "Placeholder"
     ],
     "mood": [
       "placeholder"
+    ],
+    "tracklist": [
+      "Maria Moita (3:28)",
+      "Sambinha Bossa Nova (3:09)",
+      "Batida Diferente (3:44)",
+      "Só Danço Samba (3:08)",
+      "Pau Brazil (3:12)",
+      "The Girl From Ipanema (2:51)",
+      "Useless Panorama (3:24)",
+      "The Dreamer (4:11)",
+      "Primavera (2:41)",
+      "Consolacao (3:17)",
+      "Favela (5:22)"
     ]
   },
   {
@@ -925,7 +939,7 @@
     "release_year": 2022,
     "main_genre": "Jazz",
     "rating": 8.8,
-    "runtime": "12 tracks, 43 minutes 21 seconds",
+    "runtime": "12 tracks, 43 minutes and 21 seconds",
     "tags": [
       "Nu jazz",
       "Hip Hop",
