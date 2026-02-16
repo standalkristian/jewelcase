@@ -17,9 +17,38 @@
 </head>
 
 <body>
-  <header class="site-header">
-    <h1>Jewelcase</h1>
-  </header>
+
+<svg width="0" height="0" style="position:absolute">
+  <filter id="noiseFilter">
+    <feTurbulence
+      type="fractalNoise"
+      baseFrequency="0.7"
+      numOctaves="1"
+      seed="3"
+      stitchTiles="stitch"
+      result="noise" />
+
+    <!-- boost contrast hard -->
+    <feColorMatrix
+      in="noise"
+      type="saturate"
+      values="0" />
+
+    <feComponentTransfer>
+      <feFuncR type="linear" slope="4"/>
+      <feFuncG type="linear" slope="4"/>
+      <feFuncB type="linear" slope="4"/>
+    </feComponentTransfer>
+  </filter>
+</svg>
+
+
+
+<header class="site-header">
+  <h1>
+    <a href="./" class="logo-link">Jewelcase</a>
+  </h1>
+</header>
 
   <main class="layout">
     <section class="album-grid-scroll">
@@ -74,20 +103,16 @@
           <div class="modal-body">
 
             <div class="modal-left">
-              <div class="modal-section">
-                <div class="section-label">Runtime</div>
-                <div id="modal-runtime" class="runtime-text"></div>
-              </div>
+              <div id="modal-moods" class="mood-row"></div>
+
               <div class="modal-meta">
+                <div><span class="meta-label">Runtime</span> <span id="modal-runtime"></span></div>
+                <div><span class="meta-label">Genre</span> <span id="modal-genre"></span></div>
                 <div><span class="meta-label">Year</span> <span id="modal-year"></span></div>
                 <div><span class="meta-label">Type</span> <span id="modal-type"></span></div>
-                <div><span class="meta-label">Genre</span> <span id="modal-genre"></span></div>
               </div>
 
-              <div class="modal-section">
-                <div class="section-label">Mood</div>
-                <div id="modal-mood" class="pill-row"></div>
-              </div>
+
 
               <div class="modal-section">
                 <div class="section-label">Tags</div>

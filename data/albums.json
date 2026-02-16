@@ -6,13 +6,19 @@
     "type": "Album",
     "release_year": 1966,
     "main_genre": "Jazz",
-    "rating": 10,
+    "rating": 9.6,
     "runtime": "11 tracks, 38 minutes and 32 seconds",
     "tags": [
-      "Placeholder"
+      "Classic",
+      "Tropical",
+      "Romantic",
+      "Smooth",
+      "Relaxing"
     ],
     "mood": [
-      "placeholder"
+      "Relax",
+      "Walk",
+      "Romantic"
     ],
     "tracklist": [
       "Maria Moita (3:28)",
@@ -36,12 +42,29 @@
     "release_year": 2016,
     "main_genre": "Indie",
     "rating": 10,
+    "runtime": "10 tracks, 34 minutes and 11 sec",
     "tags": [
       "Electronic",
-      "Experimental"
+      "Experimental",
+      "Complex",
+      "Emotional"
     ],
     "mood": [
-      "placeholder"
+      "Allstar",
+      "Walk",
+      "Relax"
+    ],
+    "tracklist":[
+      "22 Over Soon (2:48)",
+      "10 Death Breast (2:24)",
+      "715 Creeks (2:12)",
+      "33 'God' (3:33)",
+      "29 Strafford Apts (4:05)",
+      "666 Upside Down Cross (4:12)",
+      "21 Moon Water (3:08)",
+      "8 Circle (5:09)",
+      "45 (2:46)",
+      "00000 Million (3:53)"
     ]
   },
   {
@@ -51,7 +74,8 @@
     "type": "Album",
     "release_year": 2021,
     "main_genre": "Indietronica",
-    "rating": 10,
+    "rating": 9.4,
+    "runtime": "23 tracks, 1 hour and 36 mintues",
     "tags": [
       "Nu-disco",
       "Funk",
@@ -61,7 +85,33 @@
       "Indie Pop"
     ],
     "mood": [
-      "placeholder"
+      "Workout",
+      "Walk"
+    ],
+    "tracklist":[
+      "LIGHT (6:13)",
+      "Free (5:27)",
+      "Comingback (5:11)",
+      "Theworstthing (3:03)",
+      "Inthecity (Interlude) (1:57)",
+      "NowIcaresomemore (2:59)",
+      "Somethinggreater (5:21)",
+      "Daywalk (3:39)",
+      "Outside (7:13)",
+      "SHADOW (3:01)",
+      "Neverloved (4:11)",
+      "Famous (4:49)",
+      "Icallthishome (1:09)",
+      "LordHenry (5:32)",
+      "Thefear (3:26)",
+      "Nightwalk (6:47)",
+      "Reflex (4:44)",
+      "Once (4:39)",
+      "Inside (3:02)",
+      "Free - Single Version (3:39)",
+      "Comingback - Single Version (3:36)",
+      "Somethinggreater - Single Version (3:29)",
+      "Famous - Single Version (3:23)"
     ]
   },
   {
@@ -70,27 +120,48 @@
     "cover": "daft-punk-discovery.jpg",
     "type": "Album",
     "release_year": 2001,
-    "main_genre": "House",
+    "main_genre": "Electronic",
     "rating": 10,
+    "runtime": "14 tracks, 1 hour and 1 minute",
     "tags": [
       "French House",
       "Disco",
       "Nu-disco",
       "House",
-      "Electro-funk"
+      "Electro-funk",
+      "Classic",
+      "Iconic"
     ],
     "mood": [
-      "placeholder"
+      "Allstar",
+      "Dance"
+    ],
+    "tracklist":[
+      "One More Time (5:20)",
+      "Aerodynamic (3:32)",
+      "Digital Love (5:01)",
+      "Harder, Better, Faster, Stronger (3:46)",
+      "Crecendolls (3:31)",
+      "Nightvision (1:44)",
+      "Superheroes (3:57)",
+      "High Life (3:21)",
+      "Something About Us (3:52)",
+      "Voyager (3:47)",
+      "Veridis Quo (5:45)",
+      "Short Circuit (3:26)",
+      "Face to Face (4:00)",
+      "Too Long (10:00)"
     ]
   },
   {
     "artist": "Parcels",
     "title": "Live Vol 1",
     "cover": "parcels-live-vol-1.jpg",
-    "type": "Live",
+    "type": "Live Album",
     "release_year": 2020,
     "main_genre": "Indietronica",
     "rating": 10,
+    "runtime":"18 tracks, 1 hours and 4 minutes",
     "tags": [
       "Nu-disco",
       "Funk",
@@ -100,7 +171,29 @@
       "Indie Pop"
     ],
     "mood": [
-      "placeholder"
+      "Allstar",
+      "Work",
+      "Walk"
+    ],
+    "tracklist":[
+      "Enter (2:59)",
+      "Myenemy (3:29)",
+      "Bemyself (4:28)",
+      "Comedown (3:25)",
+      "Lighenup (4:54)",
+      "Gameofluck (3:38)",
+      "Intrude (0:49)",
+      "Withorwithout (4:39)",
+      "Retuned (0:44)",
+      "Everyroad (7:40)",
+      "Overnight (3:57)",
+      "Untried (1:26)",
+      "Yourfauld (4:24)",
+      "Closetowhy (4:06)",
+      "Redline (2:58)",
+      "IknowhowIfeel (2:55)",
+      "Elude (2:58)",
+      "Tieduprightnow (4:32)"
     ]
   },
   {
@@ -111,21 +204,39 @@
     "release_year": 1977,
     "main_genre": "Rock",
     "rating": 10,
+    "runtime": "11 tracks, 39 minutes and 58 seconds",
     "tags": [
-      "Something"
+      "Classic",
+      "Iconic"
     ],
     "mood": [
-      "placeholder"
+      "Allstar",
+      "Walk",
+      "Work"
+    ],
+    "tracklist":[
+      "Second Hand News (2:56)",
+      "Dreams (4:17)",
+      "Never Going Back Again (2:14)",
+      "Don't Stop (3:13)",
+      "Go Your Own Way (3:43)",
+      "Songbird (3:20)",
+      "The Chain (4:29)",
+      "You Make Loving Fun (3:33)",
+      "I Don't Want to Know (3:16)",
+      "Oh Daddy (3:56)",
+      "Gold Dust Woman (4:55)"
     ]
   },
   {
     "artist": "Porter Robinson",
-    "title": "SMILE",
+    "title": "SMILE! :D",
     "cover": "porter-robinson-smile.jpg",
     "type": "Album",
     "release_year": 2024,
     "main_genre": "Electronic",
-    "rating": 10,
+    "rating": 9,
+    "runtime": "10 tracks, 40 minutes and 3 seconds",
     "tags": [
       "Indie",
       "Alternative",
@@ -134,10 +245,27 @@
       "Inspiring",
       "Relaxing",
       "Sad",
-      "Nostalgic"
+      "Nostalgic",
+      "Emotional",
+      "Personal"
     ],
     "mood": [
-      "placeholder"
+      "Allstar",
+      "Workout",
+      "Dance",
+      "Walk"
+    ],
+    "tracklist":[
+      "Knock Yourself Out XD (2:48)",
+      "Cheerleader (3:57)",
+      "Russian Roulette (6:28)",
+      "Perfect Pinterest Garden (2:28)",
+      "Year of the Cup (4:22)",
+      "Knitsune Maison Freestyle (3:54)",
+      "Easier to Love You (4:10)",
+      "Mona Lisa (3:45)",
+      "Is There Really No Happiness (3:19)",
+      "Everything To Me (4:46)"
     ]
   },
   {
@@ -147,14 +275,34 @@
     "type": "Album",
     "release_year": 2023,
     "main_genre": "Jazz",
-    "rating": 10,
+    "rating": 9,
+    "runtime": "13 tracks, 41 minutes and 15 seconds",
     "tags": [
       "Hip Hop",
       "Electronic",
       "Experimental"
     ],
     "mood": [
-      "placeholder"
+      "Allstar",
+      "Focus",
+      "Work",
+      "Walk",
+      "Sleep"
+    ],
+    "tracklist":[
+      "It's All There (2:28)",
+      "Igualmente (3:14)",
+      "L'arlecchino (2:55)",
+      "Cora (2:19)",
+      "il Castello dei Pagliacci (3:34)",
+      "Vengo A Te (1:06)",
+      "Feeling Home (3:27)",
+      "Humore (4:04)",
+      "Sobrino (3:40)",
+      "Un Nuovo Giorno (3:59)",
+      "NoNoNo (3:36)",
+      "Sandìa (The Melon Song) (3:15)",
+      "La Mia Regina - Hidden Track (3:33)"
     ]
   },
   {
@@ -164,12 +312,34 @@
     "type": "Album",
     "release_year": 1990,
     "main_genre": "Progressive Rock",
-    "rating": 10,
+    "rating": 9.7,
+    "runtime": "14 tracks, 1 hour and 3 minutes",
     "tags": [
-      "Something"
+      "Classic",
+      "Underrated",
+      "Playful",
+      "Personal",
+      "Rock"
     ],
     "mood": [
-      "placeholder"
+      "Allstar",
+      "Work"
+    ],
+    "tracklist":[
+      "Last Plane Out (5:11)",
+      "Turn It on Salvador (4:52)",
+      "Things She Said (4:57)",
+      "Remember My Name (5:14)",
+      "The Toy Matinee (5:00)",
+      "Queen of Misery (4:27)",
+      "The Ballad of Jenny Ledge (5:48)",
+      "There Was a Little Boy (5:32)",
+      "We Always Come Home (4:27)",
+      "Eenitam Yot Eht (0:31)",
+      "Blank Page (2:22)",
+      "Things She Said - Alternate Version (5:10)",
+      "There Was a Little Boy - Early Version (4:12)",
+      "Last Plane Out - Early Version (5:35)"
     ]
   },
   {
@@ -180,11 +350,50 @@
     "release_year": 2007,
     "main_genre": "Dubstep",
     "rating": 10,
+    "runtime": "13 tracks, 50 minutes and 54 seconds",
     "tags": [
-      "Something"
+      "Iconic",
+      "Avant-garde",
+      "Dubstep",
+      "Classic",
+      "Electronic",
+      "Dark",
+      "Brooding",
+      "Meloncholy",
+      "Ambient",
+      "Complex",
+      "City Night",
+      "Experimental",
+      "Garage",
+      "Inspiring",
+      "Moody",
+      "IDM",
+      "Dynamic",
+      "Spiritual",
+      "Stoner",
+      "Textural",
+      "UK Garage"
     ],
     "mood": [
-      "placeholder"
+      "Allstar",
+      "Focus",
+      "Walk",
+      "Relax"
+    ],
+    "tracklist":[
+      "Untitled (0:48)",
+      "Archangel (4:00)",
+      "Near Dark (3:56)",
+      "Ghost Hardware (4:55)",
+      "Endorphin (2:59)",
+      "Etched Headpalte (6:01)",
+      "In McDonalds (2:06)",
+      "Untrue (6:18)",
+      "Shell of Light (4:42)",
+      "Dog Shelter (3:01)",
+      "Homeless (5:22)",
+      "UK (1:42)",
+      "Raver (4:59)"
     ]
   },
   {
@@ -195,6 +404,7 @@
     "release_year": 2017,
     "main_genre": "Folk Jazz",
     "rating": 10,
+    "runtime": "10 tracks, 44 minutes and 42 seconds",
     "tags": [
       "Sad",
       "Meloncholy",
@@ -203,10 +413,35 @@
       "Raw",
       "Bare",
       "Intimate",
-      "Theatrical"
+      "Theatrical",
+      "Acoustic",
+      "Ambient",
+      "Avant-garde",
+      "Contemporary",
+      "Complex",
+      "Folk",
+      "Dark",
+      "Genre-blending",
+      "Experimental",
+      "Norsk",
+      "Spiritual"
     ],
     "mood": [
-      "placeholder"
+      "Allstar",
+      "Walk",
+      "Sleep"
+    ],
+    "tracklist":[
+      "Mantra (3:31)",
+      "Reincarnation (4:05)",
+      "Good Luck Bad Luck (3:40)",
+      "The Sound of War (7:49)",
+      "Music for People in Trouble (2:55)",
+      "Bedtime Story (3:31)",
+      "Undercover (4:17)",
+      "No One Believes in Love Anymore (5:21)",
+      "The Golden Age (4:09)",
+      "Mountaineers (feat. John Grant) (5:21)"
     ]
   },
   {
@@ -217,16 +452,41 @@
     "release_year": 1957,
     "main_genre": "Jazz",
     "rating": 9.8,
+    "runtime": "17 tracks, 47 minutes and 39 seconds",
     "tags": [
       "Cool Jazz",
       "Relaxing",
       "Romantic",
       "Light",
       "Smiling",
-      "Humorous"
+      "Humorous",
+      "Playful",
+      "Lovely",
+      "Charming"
     ],
     "mood": [
-      "placeholder"
+      "Relax",
+      "Walk",
+      "Romantic"
+    ],
+    "tracklist":[
+      "'Deed I do (2:13)",
+      "Lover Man (Oh Where Can You Be) (2:46)",
+      "Everything I've Got (2:29)",
+      "Comment Allez Vous (2:12)",
+      "More Than You Know (3:29)",
+      "Thou Swell (3:01)",
+      "It Might As Well Be Spring (3:11)",
+      "Tout Doucement (2:23)",
+      "You For Me (2:16)",
+      "Now At Last (3:23)",
+      "I Hear Music (2:07)",
+      "Wait Till You See Him (3:22)",
+      "I Won't Dance (2:46)",
+      "A Fine Spring Morning (3:07)",
+      "They Say It's Spring (3:24)",
+      "Johnny One Note (2:12)",
+      "Blossom's Blues (3:09)"
     ]
   },
   {
@@ -236,13 +496,39 @@
     "type": "Album",
     "release_year": 2023,
     "main_genre": "R&B",
-    "rating": 9.8,
+    "rating": 8.8,
+    "runtime": "11 tracks, 30 minutes and 49 seconds",
     "tags": [
       "Soul",
-      "Hiphop"
+      "Soulful",
+      "Emotional",
+      "Hiphop",
+      "Personal",
+      "Bare",
+      "Intimate",
+      "Laid-back",
+      "Stoner",
+      "Relaxing",
+      "Mellow"
     ],
     "mood": [
-      "placeholder"
+      "Relax",
+      "Work",
+      "Spicy",
+      "Walk"
+    ],
+    "tracklist":[
+      "Wax Poetic (2:50)",
+      "Doctor, My Eyes (3:14)",
+      "Drifting (2:31)",
+      "Cherry Picking (2:36)",
+      "A Sacred Place (2:52)",
+      "Tell Me (3:22)",
+      "Changing Yourself (Gil's Interlude) (0:10)",
+      "Right My Wrongs (2:20)",
+      "These Four Walls (3:05)",
+      "On My Way (3:00)",
+      "Requiem (3:00)"
     ]
   },
   {
@@ -253,11 +539,45 @@
     "release_year": 2015,
     "main_genre": "Modern Classical",
     "rating": 9.8,
+    "runtime": "15 tracks, 41 minutes",
     "tags": [
-      "Piano"
+      "Piano",
+      "Minimal",
+      "Charming",
+      "Bare",
+      "Chill",
+      "Relaxing",
+      "Inspiring",
+      "Dreamy",
+      "Intimate",
+      "Lovely",
+      "Sunny",
+      "Masterful"
     ],
     "mood": [
-      "placeholder"
+      "Allstar",
+      "Relax",
+      "Walk",
+      "Focus",
+      "Sleep",
+      "Work"
+    ],
+    "tracklist":[
+      "Morning Run (3:30)",
+      "Tap On Damen (2:05)",
+      "Grandfather Clock (2:20)",
+      "Oceanesque (3:54)",
+      "Watching Traffic (2:50)",
+      "Solitary Living (3:34)",
+      "Steady and Downward (3:50)",
+      "Cicero (2:41)",
+      "Sunday (2:25)",
+      "Arduino Hammer (2:04)",
+      "South for Winter (2:02)",
+      "Birds and Fog (2:41)",
+      "Spring Cathedral (1:38)",
+      "100 Swans (Prepared) (2:25)",
+      "Windup Glass (Prapared) (2:58)"
     ]
   },
   {
@@ -268,12 +588,41 @@
     "release_year": 1969,
     "main_genre": "Jazz",
     "rating": 9.8,
+    "runtime": "2 tracks, 38 mintues and 11 seconds",
     "tags": [
       "Experimental",
-      "Electronic"
+      "Electronic",
+      "Masterful",
+      "Contemporary",
+      "Jazz Fusion",
+      "Improvisational",
+      "Classic",
+      "Iconic",
+      "Dreamy",
+      "City Night",
+      "Avant-garde",
+      "Complex",
+      "Microtonal",
+      "Introspective",
+      "Evolving",
+      "Dynamic",
+      "Creative",
+      "Fusion",
+      "Live",
+      "Modal Jazz",
+      "Playful",
+      "Thoughtful",
+      "Deep"
     ],
     "mood": [
-      "placeholder"
+      "Allstar",
+      "Walk",
+      "Work",
+      "Focus"
+    ],
+    "tracklist":[
+      "Shhh / Peaceful (18:18)",
+      "In a Silent Way (19:52)"
     ]
   },
   {
@@ -284,15 +633,34 @@
     "release_year": 2023,
     "main_genre": "Indie",
     "rating": 9.8,
+    "runtime": "12 tracks, 45 minutes and 5 seconds",
     "tags": [
       "Indie Pop",
       "Pop",
       "AlternativPop",
       "Dream Pop",
-      "Electropop"
+      "Electropop",
+      "All-star",
+      "Emotional",
+      "Upbeat"
     ],
     "mood": [
-      "placeholder"
+      "Allstar",
+      "Work"
+    ],
+    "tracklist":[
+      "Spot Dog (4:28)",
+      "Touching Yourself (3:01)",
+      "Sad to Breathe (3:34)",
+      "Over There (4:42)",
+      "Morning Pages (3:47)",
+      "Boyhood (3:09)",
+      "Indexical reminder of a morning well spent (4:43)",
+      "Friends (3:08)",
+      "Sunshine Baby (3:39)",
+      "Baby goes again (3:31)",
+      "You always get what you want (2:48)",
+      "One for sorrow, two for Joni Jones (4:30)"
     ]
   },
   {
@@ -303,11 +671,28 @@
     "release_year": 1959,
     "main_genre": "Jazz",
     "rating": 9.8,
+    "runtime": "5 tracks, 45 minutes and 26 seconds",
     "tags": [
-      "Something"
+      "Iconic",
+      "Classic",
+      "Emotional",
+      "Deep",
+      "Masterful",
+      "City Night"
     ],
     "mood": [
-      "placeholder"
+      "Focus",
+      "Work",
+      "Relax",
+      "Romantic",
+      "Walk"
+    ],
+    "tracklist":[
+      "So What (9:07)",
+      "Freddie Freeloader (9:48)",
+      "Blue in Green (5:35)",
+      "All Blues (11:32)",
+      "Flamenco Sketches (9:21)"
     ]
   },
   {
@@ -954,7 +1339,10 @@
       "Trippy"
     ],
     "mood": [
-      "placeholder"
+      "Walk",
+      "Relax",
+      "Work",
+      "Focus"
     ],
       "tracklist": [
         "Il Consiglio (4:40)",
