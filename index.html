@@ -7,48 +7,38 @@
   <title>Jewelcase</title>
 
   <!-- your fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Dr+Sugiyama&family=Knewave&family=Quicksand:wght@300..700&display=swap"
-    rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barriecito&family=Dokdo&family=Dr+Sugiyama&family=Freckle+Face&family=Geo:ital@0;1&family=Knewave&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
 
-<svg width="0" height="0" style="position:absolute">
-  <filter id="noiseFilter">
-    <feTurbulence
-      type="fractalNoise"
-      baseFrequency="0.7"
-      numOctaves="1"
-      seed="3"
-      stitchTiles="stitch"
-      result="noise" />
+  <svg width="0" height="0" style="position:absolute">
+    <filter id="noiseFilter">
+      <feTurbulence type="fractalNoise" baseFrequency="0.7" numOctaves="1" seed="3" stitchTiles="stitch"
+        result="noise" />
 
-    <!-- boost contrast hard -->
-    <feColorMatrix
-      in="noise"
-      type="saturate"
-      values="0" />
+      <!-- boost contrast hard -->
+      <feColorMatrix in="noise" type="saturate" values="0" />
 
-    <feComponentTransfer>
-      <feFuncR type="linear" slope="4"/>
-      <feFuncG type="linear" slope="4"/>
-      <feFuncB type="linear" slope="4"/>
-    </feComponentTransfer>
-  </filter>
-</svg>
+      <feComponentTransfer>
+        <feFuncR type="linear" slope="4" />
+        <feFuncG type="linear" slope="4" />
+        <feFuncB type="linear" slope="4" />
+      </feComponentTransfer>
+    </filter>
+  </svg>
 
 
 
-<header class="site-header">
-  <h1>
-    <a href="./" class="logo-link">Jewelcase</a>
-  </h1>
-</header>
+  <header class="site-header">
+    <h1>
+      <a href="./" class="logo-link">Jewelcase</a>
+    </h1>
+  </header>
 
   <main class="layout">
     <section class="album-grid-scroll">
@@ -84,8 +74,6 @@
     <div class="modal-backdrop" data-close="true"></div>
 
     <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modal-title">
-
-
       <div class="modal-content">
         <div class="modal-cover-wrap">
           <img id="modal-cover" class="modal-cover" alt="" />
@@ -93,26 +81,32 @@
 
         <div class="modal-info">
           <div class="modal-header">
-            <div id="modal-rating" class="modal-rating"></div>
+            <div id="modal-rating" class="modal-rating">
+              <svg class="rating-shape" viewBox="0 0 100 100" aria-hidden="true">
+                <polygon points="25,10 75,10 95,40 50,95 5,40" fill="currentColor" />
+              </svg>
+              <span class="rating-text"></span>
+            </div>
+
             <div class="modal-heading">
               <div id="modal-subtitle" class="modal-subtitle"></div>
               <div id="modal-title" class="modal-title"></div>
-
             </div>
           </div>
-          <div class="modal-body">
 
+          <div class="modal-body">
             <div class="modal-left">
               <div id="modal-moods" class="mood-row"></div>
 
               <div class="modal-meta">
-                <div><span class="meta-label">Runtime</span> <span id="modal-runtime"></span></div>
-                <div><span class="meta-label">Genre</span> <span id="modal-genre"></span></div>
-                <div><span class="meta-label">Year</span> <span id="modal-year"></span></div>
-                <div><span class="meta-label">Type</span> <span id="modal-type"></span></div>
+                <div class="modal-meta-line" id="modal-meta-line">
+                  <span id="modal-genre"></span>
+                  <span id="modal-year"></span>
+                  <span id="modal-type"></span>
+                </div>
               </div>
 
-
+              <div class="modal-runtime-line"><span id="modal-runtime"></span></div>
 
               <div class="modal-section">
                 <div class="section-label">Tags</div>
@@ -121,16 +115,18 @@
             </div>
 
             <div class="modal-right">
-
-
               <div class="modal-section">
                 <div class="section-label">Tracklist</div>
                 <ol id="modal-tracklist" class="tracklist"></ol>
               </div>
             </div>
           </div>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-panel -->
+  </div><!-- /.modal -->
 
-          <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>

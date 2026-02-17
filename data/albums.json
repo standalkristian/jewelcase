@@ -54,7 +54,7 @@
       "Walk",
       "Relax"
     ],
-    "tracklist":[
+    "tracklist": [
       "22 Over Soon (2:48)",
       "10 Death Breast (2:24)",
       "715 Creeks (2:12)",
@@ -88,7 +88,7 @@
       "Workout",
       "Walk"
     ],
-    "tracklist":[
+    "tracklist": [
       "LIGHT (6:13)",
       "Free (5:27)",
       "Comingback (5:11)",
@@ -136,7 +136,7 @@
       "Allstar",
       "Dance"
     ],
-    "tracklist":[
+    "tracklist": [
       "One More Time (5:20)",
       "Aerodynamic (3:32)",
       "Digital Love (5:01)",
@@ -161,7 +161,7 @@
     "release_year": 2020,
     "main_genre": "Indietronica",
     "rating": 10,
-    "runtime":"18 tracks, 1 hours and 4 minutes",
+    "runtime": "18 tracks, 1 hours and 4 minutes",
     "tags": [
       "Nu-disco",
       "Funk",
@@ -175,7 +175,7 @@
       "Work",
       "Walk"
     ],
-    "tracklist":[
+    "tracklist": [
       "Enter (2:59)",
       "Myenemy (3:29)",
       "Bemyself (4:28)",
@@ -214,7 +214,7 @@
       "Walk",
       "Work"
     ],
-    "tracklist":[
+    "tracklist": [
       "Second Hand News (2:56)",
       "Dreams (4:17)",
       "Never Going Back Again (2:14)",
@@ -255,7 +255,7 @@
       "Dance",
       "Walk"
     ],
-    "tracklist":[
+    "tracklist": [
       "Knock Yourself Out XD (2:48)",
       "Cheerleader (3:57)",
       "Russian Roulette (6:28)",
@@ -289,7 +289,7 @@
       "Walk",
       "Sleep"
     ],
-    "tracklist":[
+    "tracklist": [
       "It's All There (2:28)",
       "Igualmente (3:14)",
       "L'arlecchino (2:55)",
@@ -325,7 +325,7 @@
       "Allstar",
       "Work"
     ],
-    "tracklist":[
+    "tracklist": [
       "Last Plane Out (5:11)",
       "Turn It on Salvador (4:52)",
       "Things She Said (4:57)",
@@ -380,7 +380,7 @@
       "Walk",
       "Relax"
     ],
-    "tracklist":[
+    "tracklist": [
       "Untitled (0:48)",
       "Archangel (4:00)",
       "Near Dark (3:56)",
@@ -431,7 +431,7 @@
       "Walk",
       "Sleep"
     ],
-    "tracklist":[
+    "tracklist": [
       "Mantra (3:31)",
       "Reincarnation (4:05)",
       "Good Luck Bad Luck (3:40)",
@@ -469,7 +469,7 @@
       "Walk",
       "Romantic"
     ],
-    "tracklist":[
+    "tracklist": [
       "'Deed I do (2:13)",
       "Lover Man (Oh Where Can You Be) (2:46)",
       "Everything I've Got (2:29)",
@@ -517,7 +517,7 @@
       "Spicy",
       "Walk"
     ],
-    "tracklist":[
+    "tracklist": [
       "Wax Poetic (2:50)",
       "Doctor, My Eyes (3:14)",
       "Drifting (2:31)",
@@ -562,7 +562,7 @@
       "Sleep",
       "Work"
     ],
-    "tracklist":[
+    "tracklist": [
       "Morning Run (3:30)",
       "Tap On Damen (2:05)",
       "Grandfather Clock (2:20)",
@@ -620,7 +620,7 @@
       "Work",
       "Focus"
     ],
-    "tracklist":[
+    "tracklist": [
       "Shhh / Peaceful (18:18)",
       "In a Silent Way (19:52)"
     ]
@@ -648,7 +648,7 @@
       "Allstar",
       "Work"
     ],
-    "tracklist":[
+    "tracklist": [
       "Spot Dog (4:28)",
       "Touching Yourself (3:01)",
       "Sad to Breathe (3:34)",
@@ -687,7 +687,7 @@
       "Romantic",
       "Walk"
     ],
-    "tracklist":[
+    "tracklist": [
       "So What (9:07)",
       "Freddie Freeloader (9:48)",
       "Blue in Green (5:35)",
@@ -702,13 +702,31 @@
     "type": "Album",
     "release_year": 2024,
     "main_genre": "R&B",
-    "rating": 9.8,
+    "rating": 9.6,
+    "runtime": "13 tracks, 58 minutes and 13 seconds",
     "tags": [
       "Relaxing",
-      "Inspiring"
+      "Inspiring",
+      "Jazz"
     ],
     "mood": [
-      "placeholder"
+      "Work",
+      "Walk"
+    ],
+    "tracklist":[
+      "Flowers (4:09)",
+      "Freedom (4:10)",
+      "Friend or Foe (4:10)",
+      "Forgive (5:38)",
+      "Royal (3:02)",
+      "Trust (3:26)",
+      "State of Mind (5:37)",
+      "Hopes And Dreams (4:57)",
+      "Learning (4:43)",
+      "Cages (5:01)",
+      "Everything Everything (3:49)",
+      "Miracle (4:23)",
+      "A Little Life (5:03)"
     ]
   },
   {
@@ -718,7 +736,8 @@
     "type": "Album",
     "release_year": 2018,
     "main_genre": "Indietronica",
-    "rating": 9.7,
+    "rating": 9.5,
+    "runtime": "12 tracks, 51 mintues and 45 seconds",
     "tags": [
       "Nu-disco",
       "Funk",
@@ -728,7 +747,23 @@
       "Indie Pop"
     ],
     "mood": [
-      "placeholder"
+      "Walk",
+      "Work",
+      "Workout"
+    ],
+    "tracklist":[
+      "Comedown (3:08)",
+      "Lighenup (3:57)",
+      "Withorwithout (3:25)",
+      "Tape (3:43)",
+      "Everyroad (8:35)",
+      "Yourfault (3:39)",
+      "Closetowhy (5:30)",
+      "IknowhowIfeel (5:27)",
+      "Exotica (5:12)",
+      "Tieduprightnow (3:01)",
+      "Bemyself (2:27)",
+      "Credits (feat Dean Dawson) (3:36)"
     ]
   },
   {
@@ -739,11 +774,31 @@
     "release_year": 2016,
     "main_genre": "Pop",
     "rating": 9.5,
+    "runtime": "8 tracks, 27 minutes and 41 seconds",
     "tags": [
-      "BubblegumPop"
+      "BubblegumPop",
+      "Energetic",
+      "Upbeat",
+      "Poppy",
+      "Synth Pop",
+      "Young",
+      "Underrated",
+      "Catchy",
+      "Simple",
+      "Retro"
     ],
     "mood": [
-      "placeholder"
+      "Dance"
+    ],
+    "tracklist":[
+      "First Time (3:35)",
+      "Higher (3:54)",
+      "The One (3:23)",
+      "Fever (3:04)",
+      "Body Language (2:53)",
+      "Cry (3:56)",
+      "Store (3:12)",
+      "Roses 3:40"
     ]
   },
   {
@@ -752,18 +807,40 @@
     "cover": "quickly,-quickly-the-long-and-short-of-it.jpg",
     "type": "Album",
     "release_year": 2021,
-    "main_genre": "Jazz",
+    "main_genre": "Psych-pop",
     "rating": 9.5,
+    "runtime": "11 tracks, 37 minutes and 39 seconds",
     "tags": [
       "Electronic",
       "Fusion",
       "Inspiring",
       "Calm",
       "Complex",
-      "Personal"
+      "Personal",
+      "Jazz",
+      "Indie",
+      "Indietronica"
+
     ],
     "mood": [
-      "placeholder"
+      "Focus",
+      "Work",
+      "Relax",
+      "Hearth"
+
+    ],
+    "tracklist":[
+      "Phases (ft. Shariff Simmons) (5:53)",
+      "Come Visit Me (3:13)",
+      "Interlude (1:43)",
+      "Shee (3:49)",
+      "Leave It (3:51)",
+      "I AM Close to the River (4:32)",
+      "Feel (2:48)",
+      "A Conversation (1:18)",
+      "Everything is Different (To Me) (4:24)",
+      "Wy (4:14)",
+      "Otto's Dance (1:47)"
     ]
   },
   {
@@ -773,7 +850,8 @@
     "type": "Album",
     "release_year": 1981,
     "main_genre": "Jazz",
-    "rating": 9.3,
+    "rating": 9.6,
+    "runtime": "10 tracks, 57 minutes and 50 seconds",
     "tags": [
       "Cool Jazz",
       "Soft Jazz",
@@ -781,10 +859,27 @@
       "Relaxing",
       "Complex",
       "Cool",
-      "Romantic"
+      "Romantic",
+      "Masterful",
+      "Classic"
     ],
     "mood": [
-      "placeholder"
+      "Focus",
+      "Relax",
+      "Walk",
+      "Work"
+    ],
+    "tracklist":[
+      "B Minor Waltz (3:16)",
+      "You Must Believe In Spring (5:43)",
+      "Gary's Theme (4:17)",
+      "We Will Meet Again (4:04)",
+      "The Peacocks (6:01)",
+      "Something Ago (4:33)",
+      "Theme From M*A*S*H (Suicide is Painless) (6:02)",
+      "Without A Song (8:05)",
+      "Freddie Freeloader (7:34)",
+      "All Of You (8:09)"
     ]
   },
   {
@@ -795,6 +890,7 @@
     "release_year": 2019,
     "main_genre": "Indietronica",
     "rating": 9.2,
+    "runtime": "11 tracks, 34 minutes and 17 seconds",
     "tags": [
       "Pop",
       "Rock",
@@ -812,7 +908,21 @@
       "Complex"
     ],
     "mood": [
-      "placeholder"
+      "Dance",
+      "Hearth"
+    ],
+    "tracklist":[
+      "Everything I know (3:39)",
+      "Familiar (3:07)",
+      "Not Enough (2:58)",
+      "Nakemeguro (2:03)",
+      "Duplicate (3:28)",
+      "Late At Night (3:13)",
+      "Summerlude (3:33)",
+      "So Far So Good (2:45)",
+      "Dreamin' (3:15)",
+      "My World (2:56)",
+      "Softly (Tokyo) (3:15)"
     ]
   },
   {
@@ -821,8 +931,9 @@
     "cover": "tommy-guerrero-perpetual.jpg",
     "type": "Album",
     "release_year": 2015,
-    "main_genre": "Jazz",
+    "main_genre": "Indie Rock",
     "rating": 9.2,
+    "runtime": "16 tracks, 54 minutes and 42 seconds",
     "tags": [
       "Electronic",
       "Indie",
@@ -831,10 +942,32 @@
       "Surfer",
       "Vibes",
       "Relaxed",
-      "Spiritual"
+      "Spiritual",
+      "Jazz"
     ],
     "mood": [
-      "placeholder"
+      "Relax",
+      "Walk",
+      "Focus",
+      "Work"
+    ],
+    "tracklist":[
+      "Water in Your Hands (3:34)",
+      "Thoughts of Tomorrow (3:58)",
+      "At the Circles Edge (3:45)",
+      "The Fire Remains (3:47)",
+      "Battles of the Forgotten (3:03)",
+      "Atacama (3:54)",
+      "Where the Sky Drops into the Sea (2:45)",
+      "Time Burns Bright (3:41)",
+      "Los oceanos de arena (3:08)",
+      "The Spirit Form (4:01)",
+      "Signals from Points Beyond (3:08)",
+      "The Silence of Thunder (3:56)",
+      "Throwing Stones at the Moon (3:55)",
+      "Embers of Memory (3:03)",
+      "211 (2:48)",
+      "Sun Rays Like Stilts (2:07)"
     ]
   },
   {
@@ -845,6 +978,7 @@
     "release_year": 2022,
     "main_genre": "Psychedelic Soul",
     "rating": 9.2,
+    "runtime": "10 tracks, 33 minutes 59 seconds",
     "tags": [
       "Cosmic Jazz",
       "Rock",
@@ -858,7 +992,24 @@
       "Laid-back"
     ],
     "mood": [
-      "placeholder"
+      "Allstar",
+      "Focus",
+      "Work",
+      "Hearth",
+      "Walk",
+      "Relax"
+    ],
+    "tracklist":[
+      "Rainbow Road (1:55)",
+      "Hypnotized (4:10)",
+      "In Between (4:16)",
+      "Sent from Above (3:07)",
+      "Taurus (3:33)",
+      "Inside Out (3:38)",
+      "Everyone's Sleeping (4:21)",
+      "Not Just Anyone (3:28)",
+      "Sunset (2:06)",
+      "Vanity (3:20)"
     ]
   },
   {
@@ -889,6 +1040,7 @@
     "release_year": 2024,
     "main_genre": "Jazz",
     "rating": 9.1,
+    "runtime": "15 tracks, 1 hour and 1 minute",
     "tags": [
       "Downtempo",
       "Jazz-Hop",
@@ -903,7 +1055,29 @@
       "Peaceful"
     ],
     "mood": [
-      "placeholder"
+      "Focus",
+      "Work",
+      "Walk",
+      "Relax",
+      "Sleep",
+      "Romantic"
+    ],
+    "tracklist": [
+      "Eternal Bless (2:32)",
+      "Moonglow (4:06)",
+      "Color of Love (fea.t Substantial & Jsoul) (3:52)",
+      "Together (4:30)",
+      "Embrace (3:44)",
+      "Gentle Luv a Dub (5:02)",
+      "One Six (3:12)",
+      "I Don't Wanna Say Goodbye (5:15)",
+      "Shade of Blue (5:25)",
+      "Loving You (feat Marter) (2:39)",
+      "My Pleasure (5:57)",
+      "Love Supreme (feat. Reinaria) (4:04)",
+      "Calmness (4:19)",
+      "Stay Who You Are (1:41)",
+      "You & Me (5:27)"
     ]
   },
   {
@@ -913,7 +1087,8 @@
     "type": "Album",
     "release_year": 2023,
     "main_genre": "Jazz Fusion",
-    "rating": 9.5,
+    "rating": 9.2,
+    "runtime": "14 tracks, 50 minutes and 30 seconds",
     "tags": [
       "Progressive Pop",
       "BassaNova",
@@ -929,7 +1104,24 @@
       "Genre-blending"
     ],
     "mood": [
-      "placeholder"
+      "Walk",
+      "Work"
+    ],
+    "tracklist": [
+      "Nada Vai Ser Em Vão (5:16)",
+      "Juvenew (2:39)",
+      "Isn't It Strange (feat. Thundercat & JD Beck) (3:23)",
+      "Amor Fatasma (4:38)",
+      "Liberdade (feat. Omar Hakiom) (3:34)",
+      "Vou Descobrir (3:25)",
+      "Estrela Do Rock n' Roll Do Planalto Central (3:09)",
+      "Há De Haver (feat. Chris Fishman) (4:39)",
+      "Polos (feat. Chris Fishman & Dyral Johns) (3:18)",
+      "Kaya Noite (Deve Ser Paixão) (feat Kurt Rosenwinkel) (3:31)",
+      "Radiocenter (dedicated to Toninho maya) (2:47)",
+      "Não Leve A Mal (feat Eric Clapton) (4:22)",
+      "A Very Well Mr. Yo (2:35)",
+      "No Final Da Festa (feat Chris Fishman) (3:08)"
     ]
   },
   {
@@ -939,16 +1131,46 @@
     "type": "Album",
     "release_year": 2016,
     "main_genre": "R&B",
-    "rating": 9,
+    "rating": 10,
+    "runtime": "17 tracks, 1 hour",
     "tags": [
       "HipHop",
       "Avant-garde",
       "Soul",
       "Pop",
-      "Psychodelic Pop"
+      "Psychodelic Pop",
+      "Iconic",
+      "Genre-blending",
+      "Contemporary",
+      "Deep",
+      "Emotional",
+      "Personal"
     ],
     "mood": [
-      "placeholder"
+      "Allstar",
+      "Walk",
+      "Romantic",
+      "Work",
+      "Spicy"
+    ],
+    "tracklist": [
+      "Nikes (5:14)",
+      "Iby (4:09)",
+      "Pink + White (3:04)",
+      "Be Yourself (1:26)",
+      "Solo (4:17)",
+      " Skyline To (3:04)",
+      "Self Control (4:09)",
+      "Good Guy (1:06)",
+      "Nights (5:07)",
+      "Solo (Reprise) (1:18)",
+      "Pretty Sweet (2:38)",
+      "Facebook Story (1:08)",
+      "Close To You (1:25)",
+      "White Ferrari (4:08)",
+      "Seigfried (5:34)",
+      "Godspeed (2:57)",
+      "Future Free (9:24)"
     ]
   },
   {
@@ -1344,20 +1566,20 @@
       "Work",
       "Focus"
     ],
-      "tracklist": [
-        "Il Consiglio (4:40)",
-        "Capture This (3:45)",
-        "Il Sole (4:21)",
-        "Rising of My Mind (4:29)",
-        "Anima (3:38)",
-        "Meditation (2:43)",
-        "Torino Intro (0:38)",
-        "Torino (3:42)",
-        "Vieni Con Me (3:54)",
-        "Now (3:48)",
-        "Fiore Della Mia Vita (4:22)",
-        "Auguria (3:14)"
-      ]
+    "tracklist": [
+      "Il Consiglio (4:40)",
+      "Capture This (3:45)",
+      "Il Sole (4:21)",
+      "Rising of My Mind (4:29)",
+      "Anima (3:38)",
+      "Meditation (2:43)",
+      "Torino Intro (0:38)",
+      "Torino (3:42)",
+      "Vieni Con Me (3:54)",
+      "Now (3:48)",
+      "Fiore Della Mia Vita (4:22)",
+      "Auguria (3:14)"
+    ]
   },
   {
     "artist": "Butcher Brown",
@@ -1533,7 +1755,7 @@
       "Big",
       "Ambient",
       "Driving"
-     ],
+    ],
     "mood": [
       "placeholder"
     ]

@@ -14,6 +14,7 @@ function moodStyle(name) {
     allstar: { label: "Allstar", color: "#7f48df", icon: "allstar" },
     focus: { label: "Focus", color: "#9cbed4", icon: "focus" },
     romantic: { label: "Romantic", color: "#750014", icon: "romantic" },
+    hearth: { label: "hearth", color: "#bb517d", icon: "hearth" },
   };
 
   return map[key] ?? { label: name, color: "#6B7280", icon: "dot" };
@@ -68,9 +69,14 @@ function moodSvg(name) {
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-brain-icon lucide-brain"><path d="M12 18V5"/><path d="M15 13a4.17 4.17 0 0 1-3-4 4.17 4.17 0 0 1-3 4"/><path d="M17.598 6.5A3 3 0 1 0 12 5a3 3 0 1 0-5.598 1.5"/><path d="M17.997 5.125a4 4 0 0 1 2.526 5.77"/><path d="M18 18a4 4 0 0 0 2-7.464"/><path d="M19.967 17.483A4 4 0 1 1 12 18a4 4 0 1 1-7.967-.517"/><path d="M6 18a4 4 0 0 1-2-7.464"/><path d="M6.003 5.125a4 4 0 0 0-2.526 5.77"/></svg>
   `;
 
-    if (icon === "romantic")
+  if (icon === "romantic")
     return `
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-rose-icon lucide-rose"><path d="M17 10h-1a4 4 0 1 1 4-4v.534"/><path d="M17 6h1a4 4 0 0 1 1.42 7.74l-2.29.87a6 6 0 0 1-5.339-10.68l2.069-1.31"/><path d="M4.5 17c2.8-.5 4.4 0 5.5.8s1.8 2.2 2.3 3.7c-2 .4-3.5.4-4.8-.3-1.2-.6-2.3-1.9-3-4.2"/><path d="M9.77 12C4 15 2 22 2 22"/><circle cx="17" cy="8" r="2"/></svg>
+  `;
+
+    if (icon === "hearth")
+    return `
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-house-heart-icon lucide-house-heart"><path d="M8.62 13.8A2.25 2.25 0 1 1 12 10.836a2.25 2.25 0 1 1 3.38 2.966l-2.626 2.856a.998.998 0 0 1-1.507 0z"/><path d="M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>
   `;
 
   // fallback dot
@@ -195,49 +201,49 @@ function openAlbumModal(album, anim) {
   cover.alt = `${album.artist} - ${album.title}`;
 
   // Open modal (so target rect exists)
-modal.classList.add("is-open");
-modal.setAttribute("aria-hidden", "false");
+  modal.classList.add("is-open");
+  modal.setAttribute("aria-hidden", "false");
 
-if (anim && anim.fromRect) {
-  modal.classList.add("is-flying");   // ✅ freeze panel/backdrop transitions
+  if (anim && anim.fromRect) {
+    modal.classList.add("is-flying"); // ✅ freeze panel/backdrop transitions
 
-  cover.style.visibility = "hidden";
+    cover.style.visibility = "hidden";
 
-  const fly = document.createElement("img");
-  fly.className = "cover-fly";
-  fly.src = cover.src;
-  fly.alt = "";
-  fly.style.borderRadius = anim.radius || "12px";
+    const fly = document.createElement("img");
+    fly.className = "cover-fly";
+    fly.src = cover.src;
+    fly.alt = "";
+    fly.style.borderRadius = anim.radius || "12px";
 
-  fly.style.left = `${anim.fromRect.left}px`;
-  fly.style.top = `${anim.fromRect.top}px`;
-  fly.style.width = `${anim.fromRect.width}px`;
-  fly.style.height = `${anim.fromRect.height}px`;
+    fly.style.left = `${anim.fromRect.left}px`;
+    fly.style.top = `${anim.fromRect.top}px`;
+    fly.style.width = `${anim.fromRect.width}px`;
+    fly.style.height = `${anim.fromRect.height}px`;
 
-  document.body.appendChild(fly);
+    document.body.appendChild(fly);
 
-  requestAnimationFrame(() => {
-    const toRect = cover.getBoundingClientRect();
+    requestAnimationFrame(() => {
+      const toRect = cover.getBoundingClientRect();
 
-    const dx = toRect.left - anim.fromRect.left;
-    const dy = toRect.top - anim.fromRect.top;
-    const sx = toRect.width / anim.fromRect.width;
-    const sy = toRect.height / anim.fromRect.height;
+      const dx = toRect.left - anim.fromRect.left;
+      const dy = toRect.top - anim.fromRect.top;
+      const sx = toRect.width / anim.fromRect.width;
+      const sy = toRect.height / anim.fromRect.height;
 
-    // ✅ use 3d to reduce subpixel jitter
-    fly.style.transform = `translate3d(${dx}px, ${dy}px, 0) scale3d(${sx}, ${sy}, 1)`;
+      // ✅ use 3d to reduce subpixel jitter
+      fly.style.transform = `translate3d(${dx}px, ${dy}px, 0) scale3d(${sx}, ${sy}, 1)`;
 
-    fly.addEventListener(
-      "transitionend",
-      () => {
-        fly.remove();
-        cover.style.visibility = "visible";
-        modal.classList.remove("is-flying"); // ✅ let modal behave normally again
-      },
-      { once: true }
-    );
-  });
-}
+      fly.addEventListener(
+        "transitionend",
+        () => {
+          fly.remove();
+          cover.style.visibility = "visible";
+          modal.classList.remove("is-flying"); // ✅ let modal behave normally again
+        },
+        { once: true },
+      );
+    });
+  }
 
   // Fill modal text/content
   setText("modal-title", album.title);
@@ -249,18 +255,18 @@ if (anim && anim.fromRect) {
   setText("modal-year", album.release_year ?? "—");
   setText("modal-type", album.type ?? "—");
   setText("modal-genre", album.main_genre ?? "—");
-  setText("modal-rating", album.rating ?? "—");
+  const ratingText = document.querySelector("#modal-rating .rating-text");
+  if (ratingText) ratingText.textContent = album.rating ?? "—";
 
   const ratingEl = document.getElementById("modal-rating");
   if (ratingEl) {
     const r = Number(album.rating);
-    ratingEl.style.background = Number.isFinite(r) ? getRatingColor(r) : "#888";
+    ratingEl.style.color = Number.isFinite(r) ? getRatingColor(r) : "#888";
   }
 
   setMoodIcons("modal-moods", album.mood);
   setPills("modal-tags", album.tags);
 }
-
 
 function closeAlbumModal() {
   const modal = document.getElementById("album-modal");
@@ -304,32 +310,26 @@ function renderAlbums(albums, grid) {
     });
 
     card.className = "album-card";
-card.addEventListener("click", (e) => {
-  e.stopPropagation(); // keep your "click anywhere closes" behavior safe
-
-  // Grab the clicked cover’s on-screen position
-  const fromRect = img.getBoundingClientRect();
-
-  // Grab the card's border radius so the flying image matches
-  const radius = getComputedStyle(card).borderRadius;
-
-  openAlbumModal(album, { fromRect, radius });
-});
 
     const img = document.createElement("img");
     img.className = "album-cover";
     img.src = `images/${album.cover}`;
     img.alt = `${album.artist} - ${album.title}`;
 
-// Fade in when loaded
-img.addEventListener("load", () => {
-  card.classList.add("is-loaded");
-});
+    // Fade in when loaded
+    img.addEventListener("load", () => card.classList.add("is-loaded"));
+    if (img.complete) card.classList.add("is-loaded");
 
-// If the image is cached and already loaded
-if (img.complete) {
-  card.classList.add("is-loaded");
-}
+    card.addEventListener("click", (e) => {
+      e.stopPropagation();
+
+      const fromRect = img.getBoundingClientRect();
+      const radius = getComputedStyle(card).borderRadius;
+
+      openAlbumModal(album, { fromRect, radius });
+    });
+
+  
 
     const rating = document.createElement("div");
     rating.className = "album-rating";
