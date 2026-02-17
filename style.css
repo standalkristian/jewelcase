@@ -295,7 +295,7 @@ body {
 }
 
 .modal-panel {
-  position: relative;
+  position: absolute;
   top: 50%;
   left: 50%;
   width: min(1500px, calc(100vw - 2rem));
@@ -304,6 +304,7 @@ body {
   border-radius: 3rem;
   overflow: hidden;
   box-shadow: rgba(0, 0, 0, 0.5) 0 2rem 4rem;
+  isolation: isolate; 
 }
 
 .modal-panel::after {
@@ -317,6 +318,7 @@ body {
 
   opacity: 0.5;                  /* start subtle */
   mix-blend-mode: overlay;        /* keeps it classy */
+  z-index: 0;
 }
 
 .modal .modal-panel {
@@ -346,8 +348,10 @@ body {
 }
 
 .modal-content {
+  position: relative;
   display: grid;
   grid-template-columns: 720px 1fr;
+  z-index: 1;
 }
 
 .modal-cover-wrap {
