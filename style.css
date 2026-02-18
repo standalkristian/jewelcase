@@ -587,13 +587,13 @@ opacity;
 .tracklist {
   min-height: 0;
   overflow-y: auto;
-  
+
   line-height: 1.8;
   padding-left: 1.2rem;
   padding-right: 1.2rem;
   font-size: 0.75rem;
   opacity: 0.95;
-  max-height: 40vh;  
+  max-height: 40vh;
 }
 
 .tracklist li {
