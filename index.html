@@ -7,9 +7,11 @@
   <title>Jewelcase</title>
 
   <!-- your fonts -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barriecito&family=Dokdo&family=Dr+Sugiyama&family=Freckle+Face&family=Geo:ital@0;1&family=Knewave&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barriecito&family=Dokdo&family=Dr+Sugiyama&family=Freckle+Face&family=Geo:ital@0;1&family=Knewave&family=Quicksand:wght@300..700&display=swap"
+    rel="stylesheet">
 
   <link rel="stylesheet" href="style.css" />
 </head>
@@ -94,30 +96,55 @@
             </div>
           </div>
 
-          <div class="modal-body">
-            <div class="modal-left">
+          <div class="modal-body-part">
+            <div class="section-album-info">
+              <div class="section-label">Moods</div>
               <div id="modal-moods" class="mood-row"></div>
+            </div>
 
-              <div class="modal-meta">
-                <div class="modal-meta-line" id="modal-meta-line">
-                  <span id="modal-genre"></span>
-                  <span id="modal-year"></span>
-                  <span id="modal-type"></span>
+            <div class="divider-wave-v" aria-hidden="true"></div>
+
+            <div class="section-album-info">
+              <div class="section-label">Info</div>
+              <div class="modal-meta-section">
+                <div class="modal-meta">
+                  <div class="modal-meta-line" id="modal-meta-line">
+                    <span id="modal-genre"></span>
+                    <span id="modal-year"></span>
+                    <span id="modal-type"></span>
+                  </div>
                 </div>
+                <div class="modal-runtime-line"><span id="modal-runtime"></span></div>
               </div>
 
-              <div class="modal-runtime-line"><span id="modal-runtime"></span></div>
+
+
+
+            </div>
+          </div>
+          <div class="modal-body-part">
+            <div class="modal-left">
+
+
+
+
+
+
+              <div class="modal-section-tracklist">
+                <div class="section-label">Tracklist</div>
+                <ol id="modal-tracklist" class="tracklist"></ol>
+              </div>
+
+            </div>
+
+            <div class="divider-wave-v" aria-hidden="true"></div>
+
+
+            <div class="modal-right">
 
               <div class="modal-section">
                 <div class="section-label">Tags</div>
                 <div id="modal-tags" class="pill-row"></div>
-              </div>
-            </div>
-
-            <div class="modal-right">
-              <div class="modal-section">
-                <div class="section-label">Tracklist</div>
-                <ol id="modal-tracklist" class="tracklist"></ol>
               </div>
             </div>
           </div>

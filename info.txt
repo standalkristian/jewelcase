@@ -1,1 +1,1 @@
-Icon site: https://lucide.dev/icons/footprints?search=diamond
+Icon site: https://lucide.dev/icons/

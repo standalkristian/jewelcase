@@ -14,7 +14,7 @@ function moodStyle(name) {
     allstar: { label: "Allstar", color: "#7f48df", icon: "allstar" },
     focus: { label: "Focus", color: "#9cbed4", icon: "focus" },
     romantic: { label: "Romantic", color: "#750014", icon: "romantic" },
-    hearth: { label: "hearth", color: "#bb517d", icon: "hearth" },
+    hearth: { label: "Hearth", color: "#bb517d", icon: "hearth" },
   };
 
   return map[key] ?? { label: name, color: "#6B7280", icon: "dot" };

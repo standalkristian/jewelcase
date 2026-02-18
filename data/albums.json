@@ -943,7 +943,9 @@
       "Vibes",
       "Relaxed",
       "Spiritual",
-      "Jazz"
+      "Jazz",
+      "Stoner",
+      "Skater"
     ],
     "mood": [
       "Relax",
@@ -1020,16 +1022,47 @@
     "release_year": 1979,
     "main_genre": "Ambient",
     "rating": 9.1,
+    "runtime": "15 tracks, 48 minutes and 15 seconds",
     "tags": [
       "Dream Pop",
       "Post-punk",
       "Inspiring",
       "Complex",
       "Walks",
-      "City/Nature"
+      "City/Nature",
+      "Bare",
+      "Stoner",
+      "Alternative",
+      "Chill",
+      "Easy Listen",
+      "Improvisational",
+      "Experimental",
+      "Genre-blending",
+      "Playful",
+      "Skater"
     ],
     "mood": [
-      "placeholder"
+      "Allstar",
+      "Focus",
+      "Work",
+      "Walk"
+    ],
+    "tracklist":[
+      "Sketch for Summer (2:58)",
+      "Requiem For A Father (5:07)",
+      "Katherine (5:31)",
+      "Conduct (5:04)",
+      "Beginning (1:39)",
+      "Jazz (1:39)",
+      "Sketch for Winter (2:24)",
+      "Collette (2:22)",
+      "In 'D' (2:27)",
+      "Lips That Would Kiss (3:48)",
+      "Madeline (3:04)",
+      "The First Aspect Of The Same Thing (3:43)",
+      "The Second Aspect Of The Same Thing (2:59)",
+      "Sleep Will Come (1:47)",
+      "Experiment In Fifth (3:36)"
     ]
   },
   {
@@ -1181,12 +1214,37 @@
     "release_year": 2013,
     "main_genre": "Hip hop",
     "rating": 9,
+    "runtime": "15 tracks, 25 minutes and 51 seconds",
     "tags": [
       "Electronic",
-      "Experimental"
+      "Experimental",
+      "Story-telling",
+      "Alternative",
+      "Charming",
+      "Fusion",
+      "Funky",
+      "Samples",
+      ""
     ],
     "mood": [
-      "placeholder"
+      "Work"
+    ],
+    "tracklist":[
+      "Inhale (0:55)",
+      "Greendown Wit 0. (feat Zeroh) (1:45)",
+      "Perfectbreatharian (1:05)",
+      "Kikhabits (2:25)",
+      "Starving (2:02)",
+      "Just Air (2:26)",
+      "Adjustmnts (2:26)",
+      "Arrows (2:17)",
+      "Fif Dim (2:50)",
+      "Deergha (1:12)",
+      "Kapalabhati (0:54)",
+      "Bweyy (feat Swarvy) (1:18)",
+      "Hiking (2:09)",
+      "Bootleg Sungazing Techniques",
+      "Quick Exhale (0:49)"
     ]
   },
   {
@@ -1197,12 +1255,35 @@
     "release_year": 2013,
     "main_genre": "Progressive house",
     "rating": 9,
+    "runtime": "15 tracks, 58 minutes and 25 seconds",
     "tags": [
       "Electro House",
-      "Electronica"
+      "Electronica",
+      "Atmospheric",
+      "Synth",
+      "House"
     ],
     "mood": [
-      "placeholder"
+      "Work",
+      "Workout",
+      "Dance"
+    ],
+    "tracklist":[
+      "Superman Lost (2:08)",
+      "Only For You - Original Mix (5:14)",
+      "Easy (6:38)",
+      "Caller ID (4:02)",
+      "Little Damage (1:44)",
+      "Pyramid Scheme (3:30)",
+      "The Sky (7:55)",
+      "Like It Used To Be (0:59)",
+      "Time On Your Side (3:13)",
+      "Moderate Stimulation (1:27)",
+      "Lucid Dreams (4:30)",
+      "EZ (4:14)",
+      "Hurricane (5:15)",
+      "Fall Into Dreams (1:41)",
+      "Time Dilation - Bonus Track (5:47)"
     ]
   },
   {
@@ -1212,13 +1293,24 @@
     "type": "Album",
     "release_year": 2020,
     "main_genre": "Hip Hop",
-    "rating": 9,
+    "rating": 8.5,
+    "runtime": "7 tracks, 23 minutes and 3 seconds",
     "tags": [
-      "Hip Hop",
-      "Jazz Rap"
+      "Jazz Rap",
+      "Cool",
+      "Beats"
     ],
     "mood": [
-      "placeholder"
+      "Dance"
+    ],
+    "tracklist":[
+      "Sleepless Night (feat. Phoelix) (2:59)",
+      "Love You Bad (feat. Phoelix) (2:48)",
+      "From My Heart and My Soul (feat. Phoelix) (2:30)",
+      "First Responders (4:49)",
+      "The Mighty Tree (feat. Kamasi Washington) (3:11)",
+      "Freeze Tag (feat. Phoelix) (3:11)",
+      "LUV U (3:49)"
     ]
   },
   {
@@ -1229,11 +1321,35 @@
     "release_year": 2020,
     "main_genre": "Pop",
     "rating": 9,
+    "runtime": "11 tracks, 33 minutes and 16 seconds",
     "tags": [
-      "Synth Pop"
+      "Synth Pop",
+      "Personal",
+      "Intimate",
+      "Atmospheric",
+      "Electronic",
+      "Art Pop",
+      "Catchy",
+      "Dreamy"
     ],
     "mood": [
-      "placeholder"
+      "Sleep",
+      "Hearth",
+      "Relax",
+      "Walk"
+    ],
+    "tracklist":[
+      "little one (0:48)",
+      "fall (2:13)",
+      "unearth me (3:25)",
+      "god's chariots (3:03)",
+      "galore (2:28)",
+      "nightime (2:11)",
+      "asturias (1:31)",
+      "rosebud (2:45)",
+      "girl on my throne (2:59)",
+      "another night (3:42)",
+      "i didn't give up on you (8:06)"
     ]
   },
   {
@@ -1244,13 +1360,33 @@
     "release_year": 1994,
     "main_genre": "Post rock",
     "rating": 9,
+    "runtime": "7 tracks, 51 minutes 18 seconds",
     "tags": [
       "Rock",
       "Alternativ Rock",
-      "Experimental"
+      "Experimental",
+      "Atmospheric",
+      "Creative",
+      "Dark",
+      "Brooding",
+      "Ambient",
+      "Dynamic",
+      "Theatrical",
+      "Introspective",
+      "Instrumental"
     ],
     "mood": [
-      "placeholder"
+      "Walk",
+      "Relax"
+    ],
+    "tracklist":[
+      "The Loom (5:15)",
+      "A Street Scene (5:35)",
+      "Absent Friend (8:20)",
+      "Big Shot (5:20)",
+      "Fingerspit (8:21)",
+      "Eyes And Smiles (8:30)",
+      "Pendulum Man (9:53)"
     ]
   },
   {
@@ -1261,15 +1397,27 @@
     "release_year": 2023,
     "main_genre": "Indie",
     "rating": 9,
+    "runtime": "6 tracks, 21 mintues and 12 seconds",
     "tags": [
       "Indie Pop",
       "Pop",
       "Alternativ Pop",
       "Dream Pop",
-      "Electro Pop"
+      "Electro Pop",
+      "Live"
     ],
     "mood": [
-      "placeholder"
+      "Hearth",
+      "Work",
+      "Relax"
+    ],
+    "tracklist":[
+      "Sad to Breathe (3:57)",
+      "Touching Yourself (3:02)",
+      "Sunshine Baby (3:41)",
+      "Boyhood (3:02)",
+      "One for sorrow two for joni jones (4:30)",
+      "Super Trouper (2:59)"
     ]
   },
   {
