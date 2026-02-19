@@ -19,6 +19,7 @@ html {
   --s: 100px;
   --c1: #7a613f;
   --c2: #3d0318;
+  --c3: #27120c;
 
   --_g:
     var(--c2) 6% 14%,
@@ -244,14 +245,6 @@ body {
 
   /* start hidden + slightly lifted */
   opacity: 1 !important;
-}
-
-transform: translateY(-10px) scale(0.98);
-
-filter: brightness(0.75);
-transition: filter 140ms cubic-bezier(.2, .8, .2, 1);
-will-change: transform,
-opacity;
 }
 
 
@@ -593,7 +586,10 @@ opacity;
   padding-right: 1.2rem;
   font-size: 0.75rem;
   opacity: 0.95;
-  max-height: 40vh;  
+  max-height: 40vh;
+
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255,255,255,0.25) transparent;  
 }
 
 .tracklist li {
@@ -891,4 +887,72 @@ opacity;
     animation: none !important;
     clip-path: inset(0 0 0 0);
   }
+}
+
+/* ===== Mood filter (icon chips) ===== */
+
+.filter-group.filter-moods {
+  gap: 0.6rem;
+}
+
+/* Use <button> for accessibility + easy pressed state */
+.mood-chip {
+  width: 44px;
+  height: 44px;
+  border-radius: 25%;
+  border: 0;
+  cursor: pointer;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  /* "off" state */
+  background: var(--c3);
+  box-shadow: rgba(0, 0, 0, 0.35) 0 0.5rem 1rem;
+
+  transition: transform 140ms cubic-bezier(.2, .8, .2, 1),
+              background 120ms ease,
+              filter 120ms ease,
+              outline-color 120ms ease;
+
+  transform-origin: center 42%;
+  will-change: transform;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+
+  /* make the whole button feel "muted" when off */
+  opacity: 1;
+}
+
+.mood-chip:hover {
+  transform: scale(1.05) rotate(var(--hover-rot, 0deg));
+  z-index: 2;
+  opacity: 0.95;
+}
+
+.mood-chip:focus-visible {
+  /* outline: 2px solid rgba(255,255,255,0.6);
+  outline-offset: 2px; */
+}
+
+/* icon SVG inherits currentColor */
+.mood-chip svg {
+  width: 22px;
+  height: 22px;
+  display: block;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+/* ON state: use the mood color + remove grayscale */
+.mood-chip[aria-pressed="true"] {
+  background: var(--mood-color, rgba(0, 0, 0, 0.9));
+  filter: none;
+  opacity: 1;
+  xoutline-color: rgba(255, 255, 255, 0.25);
+  transform: scale(1.06);
+}
+
+.mood-chip[aria-pressed="true"] svg {
+  color: rgba(255, 255, 255, 0.95);
 }

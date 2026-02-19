@@ -74,7 +74,7 @@ function moodSvg(name) {
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-rose-icon lucide-rose"><path d="M17 10h-1a4 4 0 1 1 4-4v.534"/><path d="M17 6h1a4 4 0 0 1 1.42 7.74l-2.29.87a6 6 0 0 1-5.339-10.68l2.069-1.31"/><path d="M4.5 17c2.8-.5 4.4 0 5.5.8s1.8 2.2 2.3 3.7c-2 .4-3.5.4-4.8-.3-1.2-.6-2.3-1.9-3-4.2"/><path d="M9.77 12C4 15 2 22 2 22"/><circle cx="17" cy="8" r="2"/></svg>
   `;
 
-    if (icon === "hearth")
+  if (icon === "hearth")
     return `
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-house-heart-icon lucide-house-heart"><path d="M8.62 13.8A2.25 2.25 0 1 1 12 10.836a2.25 2.25 0 1 1 3.38 2.966l-2.626 2.856a.998.998 0 0 1-1.507 0z"/><path d="M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>
   `;
@@ -329,8 +329,6 @@ function renderAlbums(albums, grid) {
       openAlbumModal(album, { fromRect, radius });
     });
 
-  
-
     const rating = document.createElement("div");
     rating.className = "album-rating";
     rating.textContent = album.rating;
@@ -341,6 +339,45 @@ function renderAlbums(albums, grid) {
     grid.appendChild(card);
   });
 }
+
+function renderMoodIcons(container, moods, selectedSet, onToggle) {
+  clear(container);
+
+  // optional: add a class so you can tweak spacing
+  container.classList.add("filter-moods");
+
+  moods.forEach((moodName) => {
+    const { label, color } = moodStyle(moodName);
+
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "mood-chip";
+    btn.title = label;
+    btn.style.setProperty("--mood-color", color);
+
+    btn.addEventListener("mouseenter", () => {
+  const angle = (-1.2 + Math.random() * 2.4).toFixed(2);
+  btn.style.setProperty("--hover-rot", `${angle}deg`);
+});
+
+btn.addEventListener("mouseleave", () => {
+  btn.style.removeProperty("--hover-rot");
+});
+
+    const isOn = selectedSet.has(moodName);
+    btn.setAttribute("aria-pressed", isOn ? "true" : "false");
+    btn.setAttribute("aria-label", `Mood: ${label}`);
+
+    // Your icons use stroke="currentColor" already ✅
+    btn.innerHTML = moodSvg(moodName);
+
+    btn.addEventListener("click", () => onToggle(moodName));
+
+    container.appendChild(btn);
+  });
+}
+
+// ===== main =====
 
 function renderChips(container, values, selectedSet, onToggle) {
   clear(container);
@@ -357,7 +394,6 @@ function renderChips(container, values, selectedSet, onToggle) {
   });
 }
 
-// ===== main =====
 
 async function init() {
   const grid = document.getElementById("album-grid");
@@ -378,14 +414,35 @@ async function init() {
 
   const response = await fetch("data/albums.json");
   const allAlbums = shuffle(await response.json());
+  const allGenres = uniqSorted(allAlbums.map((a) => a.main_genre));
 
   // build distinct lists
-  const allGenres = uniqSorted(allAlbums.map((a) => a.main_genre));
+  const preferredMoodOrder = [
+    "Allstar",
+    "Work",
+    "Focus",
+    "Relax",
+    "Walk",
+    "Workout",
+    "Dance",
+    "Spicy",
+    "Romantic",
+    "Hearth",
+    "Sleep",
+  ].map((s) => s.toLowerCase());
+
   const allMoods = uniqSorted(
-    allAlbums
-      .flatMap((a) => (Array.isArray(a.mood) ? a.mood : []))
-      .filter((m) => norm(m).toLowerCase() !== "placeholder"),
-  );
+    allAlbums.flatMap((a) => (Array.isArray(a.mood) ? a.mood : [])),
+  )
+    .filter((m) => norm(m).toLowerCase() !== "placeholder")
+    .sort((a, b) => {
+      const ia = preferredMoodOrder.indexOf(norm(a).toLowerCase());
+      const ib = preferredMoodOrder.indexOf(norm(b).toLowerCase());
+      if (ia === -1 && ib === -1) return a.localeCompare(b);
+      if (ia === -1) return 1;
+      if (ib === -1) return -1;
+      return ia - ib;
+    });
 
   const allTags = uniqSorted(
     allAlbums.flatMap((a) => (Array.isArray(a.tags) ? a.tags : [])),
@@ -404,7 +461,7 @@ async function init() {
       rerender();
     });
 
-    renderChips(moodsEl, allMoods, state.moods, (val) => {
+    renderMoodIcons(moodsEl, allMoods, state.moods, (val) => {
       state.moods.has(val) ? state.moods.delete(val) : state.moods.add(val);
       rerender();
     });
