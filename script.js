@@ -5,16 +5,16 @@ function moodStyle(name) {
 
   const map = {
     work: { label: "Work", color: "#3B82F6", icon: "briefcase" },
-    relax: { label: "Relax", color: "#10B981", icon: "leaf" },
-    sleep: { label: "Sleep", color: "#8B5CF6", icon: "moon" },
+    relax: { label: "Relax", color: "#10b994", icon: "leaf" },
+    sleep: { label: "Sleep", color: "#2a2e5a", icon: "moon" },
     workout: { label: "Workout", color: "#F97316", icon: "dumbbell" },
-    spicy: { label: "Spicy", color: "#EF4444", icon: "chili" },
+    spicy: { label: "Spicy", color: "#c4283d", icon: "chili" },
     dance: { label: "Dance", color: "#EC4899", icon: "dance" },
     walk: { label: "Walk", color: "#1a644e", icon: "walk" },
-    allstar: { label: "Allstar", color: "#7f48df", icon: "allstar" },
+    allstar: { label: "Allstar", color: "#8B5CF6", icon: "allstar" },
     focus: { label: "Focus", color: "#9cbed4", icon: "focus" },
     romantic: { label: "Romantic", color: "#750014", icon: "romantic" },
-    hearth: { label: "Hearth", color: "#bb517d", icon: "hearth" },
+    hearth: { label: "Hearth", color: "#c5829c", icon: "hearth" },
   };
 
   return map[key] ?? { label: name, color: "#6B7280", icon: "dot" };
