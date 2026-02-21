@@ -5,16 +5,16 @@ function moodStyle(name) {
 
   const map = {
     work: { label: "Work", color: "#3B82F6", icon: "briefcase" },
-    relax: { label: "Relax", color: "#10B981", icon: "leaf" },
-    sleep: { label: "Sleep", color: "#8B5CF6", icon: "moon" },
+    relax: { label: "Relax", color: "#10b994", icon: "leaf" },
+    sleep: { label: "Sleep", color: "#2a2e5a", icon: "moon" },
     workout: { label: "Workout", color: "#F97316", icon: "dumbbell" },
-    spicy: { label: "Spicy", color: "#EF4444", icon: "chili" },
+    spicy: { label: "Spicy", color: "#c4283d", icon: "chili" },
     dance: { label: "Dance", color: "#EC4899", icon: "dance" },
     walk: { label: "Walk", color: "#1a644e", icon: "walk" },
-    allstar: { label: "Allstar", color: "#7f48df", icon: "allstar" },
+    allstar: { label: "Allstar", color: "#8B5CF6", icon: "allstar" },
     focus: { label: "Focus", color: "#9cbed4", icon: "focus" },
     romantic: { label: "Romantic", color: "#750014", icon: "romantic" },
-    hearth: { label: "Hearth", color: "#bb517d", icon: "hearth" },
+    hearth: { label: "Hearth", color: "#c5829c", icon: "hearth" },
   };
 
   return map[key] ?? { label: name, color: "#6B7280", icon: "dot" };
@@ -340,6 +340,45 @@ function renderAlbums(albums, grid) {
   });
 }
 
+function renderMoodIcons(container, moods, selectedSet, onToggle) {
+  clear(container);
+
+  // optional: add a class so you can tweak spacing
+  container.classList.add("filter-moods");
+
+  moods.forEach((moodName) => {
+    const { label, color } = moodStyle(moodName);
+
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "mood-chip";
+    btn.title = label;
+    btn.style.setProperty("--mood-color", color);
+
+    btn.addEventListener("mouseenter", () => {
+  const angle = (-1.2 + Math.random() * 2.4).toFixed(2);
+  btn.style.setProperty("--hover-rot", `${angle}deg`);
+});
+
+btn.addEventListener("mouseleave", () => {
+  btn.style.removeProperty("--hover-rot");
+});
+
+    const isOn = selectedSet.has(moodName);
+    btn.setAttribute("aria-pressed", isOn ? "true" : "false");
+    btn.setAttribute("aria-label", `Mood: ${label}`);
+
+    // Your icons use stroke="currentColor" already ✅
+    btn.innerHTML = moodSvg(moodName);
+
+    btn.addEventListener("click", () => onToggle(moodName));
+
+    container.appendChild(btn);
+  });
+}
+
+// ===== main =====
+
 function renderChips(container, values, selectedSet, onToggle) {
   clear(container);
 
@@ -355,7 +394,6 @@ function renderChips(container, values, selectedSet, onToggle) {
   });
 }
 
-// ===== main =====
 
 async function init() {
   const grid = document.getElementById("album-grid");
@@ -376,14 +414,35 @@ async function init() {
 
   const response = await fetch("data/albums.json");
   const allAlbums = shuffle(await response.json());
+  const allGenres = uniqSorted(allAlbums.map((a) => a.main_genre));
 
   // build distinct lists
-  const allGenres = uniqSorted(allAlbums.map((a) => a.main_genre));
+  const preferredMoodOrder = [
+    "Allstar",
+    "Work",
+    "Focus",
+    "Relax",
+    "Walk",
+    "Workout",
+    "Dance",
+    "Spicy",
+    "Romantic",
+    "Hearth",
+    "Sleep",
+  ].map((s) => s.toLowerCase());
+
   const allMoods = uniqSorted(
-    allAlbums
-      .flatMap((a) => (Array.isArray(a.mood) ? a.mood : []))
-      .filter((m) => norm(m).toLowerCase() !== "placeholder"),
-  );
+    allAlbums.flatMap((a) => (Array.isArray(a.mood) ? a.mood : [])),
+  )
+    .filter((m) => norm(m).toLowerCase() !== "placeholder")
+    .sort((a, b) => {
+      const ia = preferredMoodOrder.indexOf(norm(a).toLowerCase());
+      const ib = preferredMoodOrder.indexOf(norm(b).toLowerCase());
+      if (ia === -1 && ib === -1) return a.localeCompare(b);
+      if (ia === -1) return 1;
+      if (ib === -1) return -1;
+      return ia - ib;
+    });
 
   const allTags = uniqSorted(
     allAlbums.flatMap((a) => (Array.isArray(a.tags) ? a.tags : [])),
@@ -402,7 +461,7 @@ async function init() {
       rerender();
     });
 
-    renderChips(moodsEl, allMoods, state.moods, (val) => {
+    renderMoodIcons(moodsEl, allMoods, state.moods, (val) => {
       state.moods.has(val) ? state.moods.delete(val) : state.moods.add(val);
       rerender();
     });

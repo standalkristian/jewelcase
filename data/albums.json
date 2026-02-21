@@ -372,7 +372,8 @@
       "Spiritual",
       "Stoner",
       "Textural",
-      "UK Garage"
+      "UK Garage",
+      "Archetype"
     ],
     "mood": [
       "Allstar",
@@ -462,7 +463,8 @@
       "Humorous",
       "Playful",
       "Lovely",
-      "Charming"
+      "Charming",
+      "Cozy"
     ],
     "mood": [
       "Relax",
@@ -1426,11 +1428,47 @@
     "release_year": 2019,
     "main_genre": "Electronic",
     "rating": 9,
+    "runtime": "14 tracks, 44 minutes and 46 seconds",
     "tags": [
-      "Experimental"
+      "Experimental",
+      "Ambient",
+      "Avant-garde",
+      "City Night",
+      "Chill",
+      "Charming",
+      "Playful",
+      "Dreamy",
+      "Theatrical",
+      "Atmospheric",
+      "Dynamic",
+      "Evolving",
+      "Genre-blending",
+      "Electronic",
+      "Creepy",
+      "Folk",
+      "Introspective",
+      "Nature"
     ],
     "mood": [
-      "placeholder"
+      "Allstar",
+      "Walk",
+      "Work"
+    ],
+    "tracklist": [
+      "Forebode Pluck (3:29)",
+      "Simple Homecoming Loop (2:24)",
+      "Bench (3:17)",
+      "Kiri's Glee (3:11)",
+      "Coffin Knocker (1:32)",
+      "Forebode Knocker (4:34)",
+      "Yarraville Bird Phone (3:55)",
+      "Primary Pluck (2:30)",
+      "Flask / Abyss (3:22)",
+      "Tobi Thwarted (3:21)",
+      "Cannibal Homecoming (3:34)",
+      "Banished Hymnal (2:52)",
+      "Banished Cannibal (4:03)",
+      "Goodnight Kiri (2:37)"
     ]
   },
   {
@@ -1440,14 +1478,50 @@
     "type": "Album",
     "release_year": 1991,
     "main_genre": "Post rock",
-    "rating": 9,
+    "rating": 10,
+    "runtime": "6 tracks, 42 minutes and 47 seconds",
     "tags": [
       "Rock",
       "Alternativ Rock",
-      "Experimental"
+      "Experimental",
+      "Avant-garde",
+      "Introspective",
+      "Atmospheric",
+      "Live",
+      "Alternative",
+      "Soulful",
+      "Personal",
+      "Ambient",
+      "City Night",
+      "Deep",
+      "Dark",
+      "Meloncholy",
+      "Sad",
+      "Psychedelic",
+      "Fusion",
+      "Genre-blending",
+      "Creative",
+      "Complex",
+      "Harsh",
+      "Moody",
+      "Brooding",
+      "Raw",
+      "Spiritual",
+      "Textural",
+      "Thoughtful"
     ],
     "mood": [
-      "placeholder"
+      "Allstar",
+      "Walk",
+      "Work"
+    ],
+    "tracklist": [
+      "Myrrhman (5:33)",
+      "Ascension Day (6:00)",
+      "After The Flood (9:26)",
+      "Taphead (7:01)",
+      "New Grass (9:46)",
+      "Runeii (4:58)"
     ]
   },
   {
@@ -1457,14 +1531,52 @@
     "type": "Album",
     "release_year": 2019,
     "main_genre": "Electronic",
-    "rating": 9,
+    "rating": 9.3,
+    "runtime": "11 tracks, 43 minutes",
     "tags": [
       "Experimental",
       "Jazz",
-      "Fusion"
+      "Fusion",
+      "Calm",
+      "Ambient",
+      "Chill",
+      "Dreamy",
+      "Easy Listen",
+      "Introspective",
+      "Laid-back",
+      "Light",
+      "Mellow",
+      "Minimal",
+      "Nature",
+      "Peaceful",
+      "Relaxed",
+      "Stoner",
+      "Spiritual",
+      "Sunny",
+      "Textural",
+      "Trippy"
     ],
     "mood": [
-      "placeholder"
+      "Allstar",
+      "Focus",
+      "Hearth",
+      "Relax",
+      "Sleep",
+      "Walk",
+      "Work"
+    ],
+    "tracklist": [
+      "Jaybo (4:34)",
+      "Umberella (1:51)",
+      "Imence Sense (5:41)",
+      "Instabubu (2:46)",
+      "Autoscooter Lover (4:14)",
+      "Out of Mind (4:10)",
+      "Koli (3:49)",
+      "Helge (2:33)",
+      "Der Daene (5:05)",
+      "Interlude (1:46)",
+      "Paterson (6:27)"
     ]
   },
   {
@@ -1474,7 +1586,8 @@
     "type": "Album",
     "release_year": 1998,
     "main_genre": "Electronic",
-    "rating": 9,
+    "rating": 9.2,
+    "runtime": "18 tracks, 1 hour and 11 minutes",
     "tags": [
       "Trippy",
       "Nostalgic",
@@ -1483,10 +1596,39 @@
       "Ambient",
       "IDM",
       "Trip Hop",
-      "Psychedelia"
+      "Psychedelia",
+      "Classic",
+      "Atmospheric",
+      "Samples",
+      "Experimental",
+      "Archetype"
     ],
     "mood": [
-      "placeholder"
+      "Allstar",
+      "Focus",
+      "Relax",
+      "Walk",
+      "Work"
+    ],
+    "tracklist": [
+      "Wildlife Analysis (1:15)",
+      "An Eagle In Your Mind (6:25)",
+      "The Color Of The Fire (1:45)",
+      "Telephasic Workshop (6:35)",
+      "Triangles & Rhombuses (1:50)",
+      "Sixtyen (5:48)",
+      "Turquoise Hexagon Sun (5:07)",
+      "Kaini Industries (0:59)",
+      "Bocuma (1:35)",
+      "Roygbiv (2:29)",
+      "Rue The Whirl (6:39)",
+      "Aquarius (5:58)",
+      "Olson (1:31)",
+      "Pete Standing Alone (6:07)",
+      "Smokes Quantity (3:07)",
+      "Open The Light (4:25)",
+      "One Very Important Thought (1:25)",
+      "Happy Cycling (7:56)"
     ]
   },
   {
@@ -1496,14 +1638,54 @@
     "type": "Album",
     "release_year": 2013,
     "main_genre": "Electronic",
-    "rating": 9,
+    "rating": 9.5,
+    "runtime": "13 tracks, 1 hour and 14 minutes",
     "tags": [
       "Disco",
       "Funk",
-      "SoftRock"
+      "SoftRock",
+      "Genre-blending",
+      "Classic",
+      "Masterful",
+      "Soulful",
+      "Live",
+      "Easy Listen",
+      "Dynamic",
+      "Retro",
+      "Charming",
+      "Catchy",
+      "Energetic",
+      "Fun",
+      "French",
+      "Fusion",
+      "Iconic",
+      "Samples",
+      "Upbeat",
+      "Vibes"
     ],
     "mood": [
-      "placeholder"
+      "Allstar",
+      "Dance",
+      "Hearth",
+      "Relax",
+      "Walk",
+      "Work",
+      "Workout"
+    ],
+    "tracklist": [
+      "Give Life Back to Music (4:35)",
+      "The Game of Love (5:22)",
+      "Giorgio by Moroder (9:04)",
+      "Within (3:48)",
+      "Instant Crush (feat. Julian Casablancas) (5:37)",
+      "Lose Yourself to Dance (feat. Pharrell Williams) (5:53)",
+      "Touch (feat. Paul Williams) (8:18)",
+      "Get Lucky (feat. Pharrell Williams and Nile Rodgers) (6:09)",
+      "Beyond (4:50)",
+      "Motherboard (5:41)",
+      "Fragments of Time (feat. Todd Edwards) (4:39)",
+      "Doin' it Right (feat. Panda Bear) (4:11)",
+      "Contact (6:23)"
     ]
   },
   {
@@ -1514,12 +1696,37 @@
     "release_year": 1975,
     "main_genre": "Rock",
     "rating": 9,
+    "runtime": "12 tracks, 45 minutes and 18 seconds",
     "tags": [
       "Rock",
-      "Folk"
+      "Folk",
+      "Classic",
+      "Iconic",
+      "Calm",
+      "Chill",
+      "Charming",
+      "Acoustic",
+      "Live",
+      "Easy Listen"
     ],
     "mood": [
-      "placeholder"
+      "Walk",
+      "Work",
+      "Hearth"
+    ],
+    "tracklist": [
+      "Still Crazy After All These Years (3:26)",
+      "My Little Town (3:51)",
+      "I Do It for Your Love (3:34)",
+      "50 Ways to Leave Your Lover (3:37)",
+      "Night Game (2:57)",
+      "Gone at Last (with Phoebe Snow & The Jessy Dixon Singers) (3:40)",
+      "Some Folks' Lives Roll Easy (3:13)",
+      "Have a Good Time (3:26)",
+      "You're Kind (3:19)",
+      "Silent Eyes (4:05)",
+      "Slip Slidin' Away (Demo) (5:28)",
+      "Gone at Last (Original Demo with The Jessy Dixon Singers) (4:38)"
     ]
   },
   {
@@ -1530,6 +1737,7 @@
     "release_year": 2023,
     "main_genre": "Jazz",
     "rating": 9,
+    "runtime": "10 tracks, 42 minutes and 27 seconds",
     "tags": [
       "Norsk",
       "Relaxing",
@@ -1539,10 +1747,37 @@
       "Nu Jazz",
       "Fusion",
       "Experimental",
-      "Hip Hop"
+      "Hip Hop",
+      "Catchy",
+      "Content",
+      "Tropical",
+      "Easy Listen",
+      "Cool",
+      "Contemporary",
+      "Jazz Fusion",
+      "Stoner",
+      "Soft",
+      "Cozy"
     ],
     "mood": [
-      "placeholder"
+      "Hearth",
+      "Focus",
+      "Relax",
+      "Romantic",
+      "Walk",
+      "Work"
+    ],
+    "tracklist": [
+      "Bakeren (4:53)",
+      "O Mar E A Lua (4:51)",
+      "Bergen Sunrays (3:21)",
+      "Belle Époque (3:14)",
+      "Den Franske Gitaren (4:04)",
+      "Don't Fall Asleep (4:24)",
+      "Rory's Sunrays (3:57)",
+      "Nada Pode Me Calar (5:32)",
+      "La Psychosomnie (3:40)",
+      "Den Franske Gitaren (4:27)"
     ]
   },
   {
@@ -1553,14 +1788,40 @@
     "release_year": 2009,
     "main_genre": "Folk",
     "rating": 9,
+    "runtime": "13 tracks, 48 minutes and 6 seconds",
     "tags": [
       "Contemporary",
       "Folk",
       "Indie",
-      "Country"
+      "Country",
+      "Charming",
+      "Acoustic",
+      "Relaxing",
+      "Cozy",
+      "Easy Listen"
     ],
     "mood": [
-      "placeholder"
+      "Allstar",
+      "Hearth",
+      "Sleep",
+      "Relax",
+      "Romantic",
+      "Walk"
+    ],
+    "tracklist": [
+      "Dandelion Wine (3:04)",
+      "Light Year (3:38)",
+      "That Moon Song (3:34)",
+      "Evelyn (3:30)",
+      "Virginia May (2:58)",
+      "Big Black Car (3:37)",
+      "Master & A Hound (3:02)",
+      "This Empty Northern Hemisphere (5:00)",
+      "Idaho (4:42)",
+      "Words (4:01)",
+      "Fire Escape (1:32)",
+      "If I Go, I'm Goin (4:27)",
+      "One of Us Cannot Be Wrong (4:55)"
     ]
   },
   {
@@ -1569,13 +1830,49 @@
     "cover": "gianni-brezzo-traditional-heart.jpg",
     "type": "Album",
     "release_year": 2020,
-    "main_genre": "Electronic",
+    "main_genre": "Jazz",
     "rating": 9,
+    "runtime": "14 tracks, 40 minutes and 28 seconds",
     "tags": [
-      "Something"
+      "Acoustic",
+      "Calm",
+      "Cozy",
+      "Beats",
+      "Trip Hop",
+      "Tropical",
+      "Chill",
+      "Content",
+      "Downtempo",
+      "Easy Listen",
+      "Italian",
+      "Live",
+      "Fusion",
+      "Instrumental"
     ],
     "mood": [
-      "placeholder"
+      "Allstar",
+      "Focus",
+      "Work",
+      "Walk",
+      "Relax",
+      "Hearth",
+      "Sleep"
+    ],
+    "tracklist": [
+      "Adult Ship (3:54)",
+      "Henry (2:33)",
+      "Moof! (4:20)",
+      "I Told You (2:30)",
+      "Hickup (1:51)",
+      "Mental Shower (4:34)",
+      "Guitar (2:35)",
+      "Gwing (2:53)",
+      "More Hours (2:38)",
+      "Osse Two (2:36)",
+      "Excited (2:18)",
+      "River (3:13)",
+      "The End Of (2:38)",
+      "Brem Bo (1:48)"
     ]
   },
   {
@@ -1585,14 +1882,31 @@
     "type": "Album",
     "release_year": 2023,
     "main_genre": "Hip hop",
-    "rating": 9,
+    "rating": 8.8,
+    "runtime": "13 tracks, 37 minutes and 11 seconds",
     "tags": [
       "Jazz Rap",
       "Alternative",
       "Hip Hop"
     ],
     "mood": [
-      "placeholder"
+      "Relax",
+      "Work"
+    ],
+    "tracklist": [
+      "The Medium (2:14)",
+      "Chosen (2:14)",
+      "The One (2:27)",
+      "To Fall In Love (feat. Budgie) (2:56)",
+      "Life's Terms (feat. Zeroh) (3:42)",
+      "Phases (1:14)",
+      "Kill Switch (3:21)",
+      "Window to the Soul (feat. Kelly Moonstone) (4:03)",
+      "Freehold (2:53)",
+      "Embers (feat. Liv.e & Venna) (2:10)",
+      "Pillars (3:18)",
+      "Look In My Eyes (3:02)",
+      "Shadow's Shield (3:32)"
     ]
   },
   {
@@ -1601,13 +1915,34 @@
     "cover": "snarky-puppy-we-like-it-here.jpg",
     "type": "Live",
     "release_year": 2014,
-    "main_genre": "Jazz",
+    "main_genre": "Jazz Fusion",
     "rating": 9,
+    "runtime": "8 tracks, 54 minutes and 40 seconds",
     "tags": [
-      "Jazz Fusion"
+      "Jazz",
+      "Live",
+      "Complex",
+      "Masterful",
+      "Energetic",
+      "Instrumental",
+      "Fun",
+      "Funky"
     ],
     "mood": [
-      "placeholder"
+      "Relax",
+      "Walk",
+      "Work",
+      "Workout"
+    ],
+    "tracklist": [
+      "Shofukan (6:33)",
+      "What About Me? (6:42)",
+      "Sleeper (6:51)",
+      "Jambone (5:07)",
+      "Kite (6:12)",
+      "Outlier (6:45)",
+      "Tio Macaco (5:43)",
+      "Lingus (10:45)"
     ]
   },
   {
@@ -1618,16 +1953,31 @@
     "release_year": 2022,
     "main_genre": "Electronic",
     "rating": 9,
+    "runtime": "7 tracks, 37 minutes and 30 seconds",
     "tags": [
       "Relaxing",
       "Inspiring",
       "Walks",
       "City Night",
       "Progrssive House",
-      "IDM"
+      "IDM",
+      "Jazz",
+      "Fusion"
     ],
     "mood": [
-      "placeholder"
+      "Focus",
+      "Relax",
+      "Walk",
+      "Work"
+    ],
+    "tracklist": [
+      "Jungle Times (5:33)",
+      "Roll Of Thunder (4:15)",
+      "When Young (3:31)",
+      "Ombre (6:55)",
+      "Aura (5:44)",
+      "Dog Days (5:39)",
+      "Drift Out (5:48)"
     ]
   },
   {
@@ -1638,6 +1988,7 @@
     "release_year": 2000,
     "main_genre": "Post-rock",
     "rating": 9.1,
+    "runtime": "7 tracks, 48 minutes and 38 seconds",
     "tags": [
       "Atmospheric",
       "Meloncholy",
@@ -1650,7 +2001,19 @@
       "Instrumental Rock"
     ],
     "mood": [
-      "placeholder"
+      "Focus",
+      "Walk",
+      "Relax",
+      "Work"
+    ],
+    "tracklist": [
+      "When Day Chokes The Night (6:38)",
+      "Minmin (8:23)",
+      "The Landlord Is Dead (5:39)",
+      "The Apartment Song (3:52)",
+      "All Of This Is True (7:46)",
+      "Bruce E Kinesis (3:39)",
+      "Goodbye Enemy Airship (12:37)"
     ]
   },
   {
@@ -1661,12 +2024,19 @@
     "release_year": 2024,
     "main_genre": "Progressive Metal",
     "rating": 8.8,
+    "runtime": "4 tracks, 13 minutes and 3 seconds",
     "tags": [
       "Prog Metal",
       "Groove Rock"
     ],
     "mood": [
-      "placeholder"
+      "Work"
+    ],
+    "tracklist": [
+      "Intro (2:04)",
+      "Animals (3:24)",
+      "Waves (3:20)",
+      "Sirens (4:15)"
     ]
   },
   {
@@ -1676,12 +2046,36 @@
     "type": "Album",
     "release_year": 2016,
     "main_genre": "Electro",
-    "rating": 8.8,
+    "rating": 9.1,
+    "runtime": "13 tracks, 48 minutes and 1 second",
     "tags": [
-      "Something"
+      "Harsh",
+      "Cool",
+      "Grundgy",
+      "Hard",
+      "House",
+      "Electro House",
+      "Groovy"
     ],
     "mood": [
-      "placeholder"
+      "Work",
+      "Workout",
+      "Dance"
+    ],
+    "tracklist": [
+      "Overthrow (4:45)",
+      "Mayday (3:21)",
+      "Dynamite (3:13)",
+      "Rock the Bells (2:51)",
+      "Euphoria (4:33)",
+      "2 Live (3:24)",
+      "Would You Listen (3:14)",
+      "Revolt (3:07)",
+      "Starchild (4:32)",
+      "Midnight (4:34)",
+      "Los Niños (4:02)",
+      "Hardkotzen (3:04)",
+      "Birthday (3:13)"
     ]
   },
   {
